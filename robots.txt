@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /b2b-ops-finops-benchmarks/
+Sitemap: https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/sitemap.xml

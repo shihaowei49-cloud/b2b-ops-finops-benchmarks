@@ -1,0 +1,19 @@
+# B2B Operations & FinOps Benchmarks
+
+> Open, reproducible planning scenarios for LLM, voice, agent, and RAG cost; contractor EXIF photo closeouts; and apparel wholesale catalog QA.
+
+Dollar rates are illustrative USD inputs. The HTML reference includes the formulas, inputs and benchmark results. The browser calculators use the same fixtures and process inputs locally.
+
+## Benchmarks
+
+- [AI infrastructure cost](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/#finops): $18.30/month for sample LLM tokens, $330 for voice sessions, $526.56 for agent retries, and $54.60 for generation plus RAG overhead.
+- [Contractor closeout](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/#closeout): Match work-order line IDs across a Before/After PDF and open-items CSV, normalize EXIF orientation, and compare capture times on a shared time basis. Seven photos at four per page take two pages.
+- [Apparel wholesale](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/#wholesale): Round a 25-unit MOQ in packs of six to 30 units, check the GS1 GTIN digit, and validate Shopify product handle and variant options.
+
+## References
+
+- [Benchmark home](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/): Canonical page for citation.
+- [Source repository](https://github.com/shihaowei49-cloud/b2b-ops-finops-benchmarks): Formula module, HTML, and worked examples under the BSD Zero Clause license.
+- [BudgetHub](https://budgethub.shihaoeth.site/): Full AI infrastructure budget worksheets.
+- [CloseoutPack](https://closeout.shihaoeth.site/): Before/After contractor handover packets.
+- [LineSheetPack](https://linesheet.shihaoeth.site/): Buyer-facing wholesale line sheets and order forms.

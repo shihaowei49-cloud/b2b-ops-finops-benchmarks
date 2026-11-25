@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>B2B Operations &amp; FinOps Benchmarks</title>
+  <meta name="description" content="Open worked examples and browser calculators for AI cost, contractor photo closeouts, and apparel wholesale data.">
+  <link rel="canonical" href="https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/">
+  <link rel="sitemap" type="application/xml" href="./sitemap.xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="./">Operations Benchmarks</a>
+      <nav aria-label="Project links">
+        <a href="./llms.txt">Plain-text index</a>
+        <a href="https://github.com/shihaowei49-cloud/b2b-ops-finops-benchmarks">Source on GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="shell">
+    <div class="intro">
+      <div>
+        <h1>B2B Operations <span>&amp; FinOps Benchmarks</span></h1>
+        <p>Reproduce an AI cost estimate, size a contractor photo packet, or check a wholesale order before export. Each benchmark shows its inputs, assumptions, and expected result.</p>
+      </div>
+      <nav class="contents" aria-label="On this page">
+        <a href="#finops">AI infrastructure cost</a>
+        <a href="#closeout">Contractor closeout</a>
+        <a href="#wholesale">Apparel wholesale</a>
+      </nav>
+    </div>
+
+    <noscript><p class="notice">Enable JavaScript to recalculate. The tables show the worked results for the prefilled inputs.</p></noscript>
+
+    <section id="finops" aria-labelledby="finops-title">
+      <div class="section-heading">
+        <h2 id="finops-title">AI infrastructure cost</h2>
+        <p>Separate token, session, and infrastructure charges before adding them. Rates below are illustrative USD inputs. Use the rates and billing units on your invoice.</p>
+      </div>
+
+      <div class="calculators">
+        <form data-calculator="llm" aria-labelledby="llm-title">
+          <h3 id="llm-title">Monthly LLM tokens</h3>
+          <fieldset class="fields" disabled>
+            <label>Requests per month<input name="requests" type="number" min="0" value="3000" required></label>
+            <label>Input tokens per request<input name="inputTokens" type="number" min="0" value="4000" required></label>
+            <label>Cached share of input (%)<input name="cachedPercent" type="number" min="0" max="100" step="any" value="50" required></label>
+            <label>Output tokens per request<input name="outputTokens" type="number" min="0" value="40" required></label>
+            <label>Standard input ($/1M)<input name="inputRate" type="number" min="0" step="any" value="2.50" required></label>
+            <label>Cached input ($/1M)<input name="cachedRate" type="number" min="0" step="any" value="0.25" required></label>
+            <label>Output ($/1M)<input name="outputRate" type="number" min="0" step="any" value="15" required></label>
+          </fieldset>
+          <p class="field-note">Divide billed cache-read tokens by all input tokens to get the cached share.</p>
+          <label class="result" for="llm-result">Token cost <output id="llm-result" aria-live="polite">$18.30 / month</output></label>
+        </form>
+
+        <form data-calculator="voice" aria-labelledby="voice-title">
+          <h3 id="voice-title">Voice session cost</h3>
+          <fieldset class="fields" disabled>
+            <label>Calls per month<input name="calls" type="number" min="0" value="1000" required></label>
+            <label>Seconds per call<input name="callSeconds" type="number" min="0" step="any" value="480" required></label>
+            <label>Pauses per call<input name="pauses" type="number" min="0" value="4" required></label>
+            <label>Seconds per pause<input name="pauseSeconds" type="number" min="0" step="any" value="45" required></label>
+            <label>Threshold per pause (s)<input name="threshold" type="number" min="0" step="any" value="10" required></label>
+            <label>Active rate ($/min)<input name="activeRate" type="number" min="0" step="any" value="0.05" required></label>
+            <label>Standby rate ($/min)<input name="standbyRate" type="number" min="0" step="any" value="0.02" required></label>
+          </fieldset>
+          <p class="field-note">Time above the threshold in each pause moves to the standby meter.</p>
+          <label class="result" for="voice-result">Session cost <output id="voice-result" aria-live="polite">$330.00 / month</output></label>
+        </form>
+
+        <form data-calculator="agent" aria-labelledby="agent-title">
+          <h3 id="agent-title">Agent retry cost</h3>
+          <fieldset class="fields" disabled>
+            <label>Completed tasks per month<input name="tasks" type="number" min="0" value="4500" required></label>
+            <label>Successful turns per task<input name="turns" type="number" min="1" value="8" required></label>
+            <label>Retryable failures (%)<input name="failurePercent" type="number" min="0" max="99.99" step="0.01" value="10" required></label>
+            <label>Average cost per attempt ($)<input name="attemptCost" type="number" min="0" step="any" value="0.013164" required></label>
+          </fieldset>
+          <p class="field-note">Assumes independent failures, retries until success, and the same mean cost on each attempt.</p>
+          <label class="result" for="agent-result">Attempt cost <output id="agent-result" aria-live="polite">$526.56 / month</output></label>
+        </form>
+      </div>
+
+      <table>
+        <caption>Worked cost scenarios</caption>
+        <thead><tr><th scope="col">Meter</th><th scope="col">Calculation</th><th scope="col">Monthly result</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">LLM tokens</th><td>6M standard × $2.50/M + 6M cached × $0.25/M + 0.12M output × $15/M.</td><td>$18.30</td></tr>
+          <tr><th scope="row">Voice standby</th><td>1,000 calls × (340 active seconds × $0.05/min + 140 standby seconds × $0.02/min) ÷ 60 seconds/minute.</td><td>$330.00</td></tr>
+          <tr><th scope="row">Agent retries</th><td>36,000 successful turns ÷ 0.90 = 40,000 expected attempts at $0.013164 each.</td><td>$526.56</td></tr>
+          <tr><th scope="row">RAG + vector store</th><td>$18.30 generation + $0.30 embeddings + $30 store + $6 reranking. Assumes zero egress charges.</td><td>$54.60</td></tr>
+        </tbody>
+      </table>
+      <p class="references">Build a full budget in <a href="https://budgethub.shihaoeth.site/">BudgetHub</a> or model <a href="https://budgethub.shihaoeth.site/tools/rag-vector-db-tco-calculator">RAG and vector database TCO</a>. For meter-specific estimates, use the <a href="https://llmtoken.shihaoeth.site/">LLM Token Estimator</a>, <a href="https://voicebudget.shihaoeth.site/">Voice Budget</a>, or <a href="https://apicache.shihaoeth.site/ai-agent-retry-and-prompt-cache-tco.html">Agent Retry and Prompt Cache TCO</a>. Adjacent tools cover <a href="https://worldbudget.shihaoeth.site/">interactive sessions</a>, <a href="https://imagebudget.shihaoeth.site/">image generation</a>, <a href="https://runnerbudget.shihaoeth.site/">CI runners</a>, and <a href="https://setbudget.shihaoeth.site/">search and enrichment</a>.</p>
+    </section>
+
+    <section id="closeout" aria-labelledby="closeout-title">
+      <div class="section-heading">
+        <h2 id="closeout-title">Contractor closeout</h2>
+        <p>Tie each Before/After pair to a work-order line and carry that identifier into the PDF and the exceptions CSV. This packet outline is a worked template.</p>
+      </div>
+
+      <div class="reference-grid">
+        <form data-calculator="photoPages" aria-labelledby="photo-title">
+          <h3 id="photo-title">Photo appendix size</h3>
+          <fieldset class="fields" disabled>
+            <label>Photos included<input name="photos" type="number" min="0" value="7" required></label>
+            <label>Photos per page<input name="perPage" type="number" min="1" value="4" required></label>
+          </fieldset>
+          <p class="field-note">Counts appendix pages. Add any cover and approval pages separately.</p>
+          <label class="result" for="photo-result">Appendix length <output id="photo-result" aria-live="polite">2 pages</output></label>
+        </form>
+
+        <table>
+          <caption>EXIF photo audit packet</caption>
+          <thead><tr><th scope="col">Record</th><th scope="col">What to capture</th><th scope="col">Example check</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Work-order line</th><td>Line ID, location, scope, status, and Before/After slots.</td><td>Flag a missing After photo on <code>WO-02</code>.</td></tr>
+            <tr><th scope="row">Orientation</th><td>Apply the EXIF transform once when rendering the review copy.</td><td>EXIF orientation 6 displays upright after a 90° clockwise rotation.</td></tr>
+            <tr><th scope="row">Capture time</th><td>Keep <code>DateTimeOriginal</code> and its offset when available. Label missing or incomparable times.</td><td>Flag Before later than After when both timestamps can be compared on the same time basis.</td></tr>
+            <tr><th scope="row">Exports</th><td>US Letter photo appendix and open-items CSV keyed by line ID.</td><td>Seven photos at four per page fit on two pages. Preserve source files for review.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="references"><a href="https://www.cipa.jp/e/std/std-sec.html">CIPA Exif specification</a> defines the metadata fields. Use <a href="https://closeout.shihaoeth.site/">CloseoutPack</a> for the handover packet, the <a href="https://closeout.shihaoeth.site/tools/subcontractor-daily-report-generator">Subcontractor Daily Report Generator</a> for daily records, <a href="https://jobquote.shihaoeth.site/">JobQuote</a> for scope pricing, and <a href="https://punchlist.shihaoeth.site/">PunchList</a> for open items.</p>
+    </section>
+
+    <section id="wholesale" aria-labelledby="wholesale-title">
+      <div class="section-heading">
+        <h2 id="wholesale-title">Apparel wholesale</h2>
+        <p>Build buyer-facing line sheets from a checked catalog. Validate pack sizing, variant identity, and barcode strings before generating an order form.</p>
+      </div>
+      <div class="calculators">
+        <form data-calculator="moq" aria-labelledby="moq-title">
+          <h3 id="moq-title">Minimum order quantity</h3>
+          <fieldset class="fields" disabled>
+            <label>Minimum units<input name="minimum" type="number" min="0" value="25" required></label>
+            <label>Units per case<input name="caseSize" type="number" min="1" value="6" required></label>
+          </fieldset>
+          <label class="result" for="moq-result">Case-rounded order <output id="moq-result" aria-live="polite">30 units · 5 cases</output></label>
+        </form>
+        <form data-calculator="gtin" aria-labelledby="gtin-title">
+          <h3 id="gtin-title">GTIN check digit</h3>
+          <fieldset class="fields single" disabled>
+            <label>Complete GTIN (8, 12, 13, or 14 digits)<input name="code" type="text" inputmode="numeric" maxlength="14" pattern="[0-9]{8}|[0-9]{12,14}" value="036000291452" required></label>
+          </fieldset>
+          <p class="field-note">Includes the check digit. Keep leading zeroes when copying the number.</p>
+          <label class="result" for="gtin-result">Checksum <output id="gtin-result" aria-live="polite">Valid · check digit 2</output></label>
+        </form>
+      </div>
+
+      <table>
+        <caption>Line sheet and catalog checks</caption>
+        <thead><tr><th scope="col">Item</th><th scope="col">Validation rule</th><th scope="col">Worked case</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Line sheet</th><td>Include style, variant SKU, color, size, currency, buyer-tier price, pack size, and order minimum.</td><td>Two buyer tiers receive separate exports with their own prices.</td></tr>
+          <tr><th scope="row">MOQ</th><td>Divide minimum units by case size and round up to whole cases.</td><td>25 ÷ 6 → 5 cases (30 units).</td></tr>
+          <tr><th scope="row">GS1 GTIN</th><td>Weight payload digits 3, 1, 3, 1 from the right. Compare <code>(10 − sum mod 10) mod 10</code> with the last digit.</td><td><code>036000291452</code> passes with check digit 2. Assignment is verified separately through GS1.</td></tr>
+          <tr><th scope="row">Shopify CSV</th><td>Use a fresh store export as the UTF-8 schema template. Check product handle and option combinations, then retain SKUs and barcodes as text.</td><td>Two rows with the same handle and complete option tuple flag a duplicate. Preserve the UPC's initial zero.</td></tr>
+        </tbody>
+      </table>
+      <p class="references">See the <a href="https://ref.gs1.org/standards/genspecs/">GS1 General Specifications</a> and <a href="https://help.shopify.com/en/manual/products/import-export/using-csv">Shopify product CSV documentation</a>. Use <a href="https://linesheet.shihaoeth.site/">LineSheetPack</a> and the <a href="https://linesheet.shihaoeth.site/tools/wholesale-order-form-generator">Wholesale Order Form Generator</a> for buyer documents, <a href="https://moqcalc.shihaoeth.site/">MOQ Calc</a> for case sizing, <a href="https://csvclean.shihaoeth.site/shopify-product-csv-variant-validator.html">CSV Clean</a> for variant checks, and <a href="https://barcodelab.shihaoeth.site/gs1-gtin-check-digit-and-upc-ean-validator.html">Barcode Lab</a> for batches of GTINs.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <p>All calculator inputs stay in the browser. The maintainers also publish the linked BudgetHub, CloseoutPack, and LineSheetPack tools.</p>
+      <p><a href="https://github.com/shihaowei49-cloud/b2b-ops-finops-benchmarks/blob/main/LICENSE">BSD Zero Clause License</a></p>
+    </div>
+  </footer>
+</body>
+</html>
