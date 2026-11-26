@@ -2,7 +2,7 @@
 
 > Open, reproducible benchmarks for AI infrastructure, contractor closeouts, and wholesale catalogs, with interactive tools for food labels, image edits, automation planning, and AI video camera control.
 
-Dollar rates are illustrative USD inputs. The HTML reference includes the formulas, inputs and benchmark results. The browser calculators use the same fixtures and process inputs locally.
+Benchmark rates are illustrative USD inputs. The HTML reference includes the formulas, inputs and benchmark results. The browser calculators use the same fixtures and process inputs locally.
 
 ## Benchmarks
 
@@ -37,6 +37,12 @@ Dollar rates are illustrative USD inputs. The HTML reference includes the formul
 - Recalculates KDP paperback spine width, compares old and new fold guides, and previews a full-wrap PDF repair. [SpineRetrofit](https://spineretrofit.shihaoeth.site/)
 - Checks SRT and WebVTT cues for timing, reading speed, and line length, then reconciles subtitle tracks against a CSV manifest. [SubPackQC](https://subpackqc.shihaoeth.site/)
 - Builds four-page wedding newspapers with text and photo checks, an 11 × 17 in duplex PDF, and a print-shop fold test. [WedPaperPack](https://wedpaper.shihaoeth.site/)
+
+## Catering, bookkeeping, and rent
+
+- Generates banquet event order PDFs for the client and kitchen, plus a revision diff. Event Pass, $15 once or $12 with LAUNCH20. [BEOPack](https://beopack.shihaoeth.site/)
+- Reconciles bank statement PDFs to the cent and exports QuickBooks CSV and XLSX. 50-Page Pass, $19 once or $15.20 with LAUNCH20. [StatementPack](https://statementpack.shihaoeth.site/)
+- Exports tenant rent ledger PDF and CSV statements with partial payments, late fees, and running balances. 5-Unit Pass, $9 once or $7.20 with LAUNCH20. [RentLedgerPack](https://rentledger.shihaoeth.site/)
 
 ## MotionPack camera control
 
