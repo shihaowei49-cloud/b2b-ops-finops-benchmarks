@@ -2,7 +2,7 @@
 
 [Open the benchmark and calculators](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/) · [Plain-text index](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/llms.txt)
 
-Editable worked scenarios for AI infrastructure cost, field photo closeouts, and apparel wholesale catalogs. All dollar rates in the showcase are illustrative USD inputs. The showcase calculators process inputs in the browser.
+Editable worked scenarios for AI infrastructure cost, field photo closeouts, and apparel wholesale catalogs. Benchmark rates are illustrative USD inputs. The showcase calculators process inputs in the browser.
 
 ## Interactive tools
 
@@ -24,6 +24,12 @@ Editable worked scenarios for AI infrastructure cost, field photo closeouts, and
 - Estimate cash payback, review discounting and scenario sensitivity, and price retrieval infrastructure separately. [AI agent payback calculator](https://airoipack.shihaoeth.site/tools/ai-agent-payback-period-calculator) · [Payback, NPV, and sensitivity guide](https://airoipack.shihaoeth.site/ai-payback-period-npv-and-sensitivity-analysis-guide) · [RAG and vector database worksheet](https://budgethub.shihaoeth.site/tools/rag-vector-db-tco-calculator)
 - Track insurance evidence before handing over a project. [Certificate of insurance checklist](https://closeout.shihaoeth.site/tools/certificate-of-insurance-coi-closeout-checklist)
 - Prepare an editorial assortment and a SKU-level wholesale line sheet. [Fashion lookbook and line sheet builder](https://linesheet.shihaoeth.site/tools/fashion-lookbook-vs-line-sheet-builder)
+
+## Catering, bookkeeping, and rent
+
+- Generate banquet event order PDFs for the client and kitchen, plus a revision diff. The Event Pass costs $15 once or $12 with `LAUNCH20`. [BEOPack](https://beopack.shihaoeth.site/)
+- Reconcile bank statement PDFs to the cent and export QuickBooks CSV or XLSX. The 50-Page Pass costs $19 once or $15.20 with `LAUNCH20`. [StatementPack](https://statementpack.shihaoeth.site/)
+- Allocate partial rent payments, track late fees, and export tenant ledger PDFs and CSVs. The 5-Unit Pass costs $9 once or $7.20 with `LAUNCH20`. [RentLedgerPack](https://rentledger.shihaoeth.site/)
 
 ## MotionPack camera control
 
