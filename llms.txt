@@ -13,23 +13,32 @@ Dollar rates are illustrative USD inputs. The HTML reference includes the formul
 ## Interactive tools
 
 - [NutritionLabelPack](https://nutritionlabel.shihaoeth.site/): U.S. Nutrition Facts panel builder with five layout options, UPC-A, and vector PDF and SVG exports.
+- [FDA Nutrition Facts generator](https://nutritionlabel.shihaoeth.site/tools/fda-nutrition-facts-generator): Checks measured per-serving declarations against rounding thresholds.
+- [Dual-column Nutrition Facts maker](https://nutritionlabel.shihaoeth.site/tools/dual-column-nutrition-label-maker): Displays serving and package declarations side by side.
 - [SameFontPack](https://samefont.shihaoeth.site/): Browser-native raster text replacement with background sampling, font and baseline controls, and a SHA-256 export digest.
+- [Webfont fallback CSS generator](https://samefont.shihaoeth.site/tools/webfont-cls-zero-layout-shift-fallback-generator): Derives size-adjust and vertical metric overrides for a font stack.
 - [AIROIPack](https://airoipack.shihaoeth.site/): B2B automation ROI, three-scenario sensitivity, payback, and 12-month cash-flow proposals.
+- [AI agent payback calculator](https://airoipack.shihaoeth.site/tools/ai-agent-payback-period-calculator): Models when cumulative cash flows recover implementation costs.
+- [Payback, NPV, and sensitivity guide](https://airoipack.shihaoeth.site/ai-payback-period-npv-and-sensitivity-analysis-guide): Explains how to compare discounted cash flows and scenario assumptions.
 - [MAI Voice Budget](https://maivoice.shihaoeth.site/): MAI speech pipeline cost and GitHub Copilot code review organization billing models.
 - [BudgetHub](https://budgethub.shihaoeth.site/): Homepage AI budgets and cached-token estimates.
 - [AI Token Cost Calculator](https://budgethub.shihaoeth.site/tools/ai-token-cost-calculator): Standard input, cached input, and output charges.
+- [RAG and vector database worksheet](https://budgethub.shihaoeth.site/tools/rag-vector-db-tco-calculator): Estimates the monthly retrieval stack cost.
 - [CloseoutPack](https://closeout.shihaoeth.site/): Before/After photo handover PDFs and open-items CSVs.
 - [Move-out inspection checklist](https://closeout.shihaoeth.site/tools/move-out-inspection-checklist): Room-by-room condition records.
 - [Construction change order template](https://closeout.shihaoeth.site/tools/construction-change-order-template): Scope, cost, and schedule change records.
 - [Construction submittal log](https://closeout.shihaoeth.site/tools/construction-submittal-log-template): Revision and approval tracking.
+- [Certificate of insurance checklist](https://closeout.shihaoeth.site/tools/certificate-of-insurance-coi-closeout-checklist): Records coverage and supporting evidence for project handover.
 - [LineSheetPack](https://linesheet.shihaoeth.site/): Buyer-specific wholesale line sheets and order forms.
 - [Wholesale packing slip template](https://linesheet.shihaoeth.site/tools/wholesale-packing-slip-template): Shipped quantities by SKU and purchase order.
 - [Product spec sheet template](https://linesheet.shihaoeth.site/tools/product-spec-sheet-template): Dimensions, materials, and variant specifications.
 - [Wholesale size-run order form](https://linesheet.shihaoeth.site/tools/wholesale-size-run-order-form): Order quantities by size.
+- [Fashion lookbook and line sheet builder](https://linesheet.shihaoeth.site/tools/fashion-lookbook-vs-line-sheet-builder): Prepares a visual assortment and buyer-facing SKU list.
 
 ## MotionPack camera control
 
 - [MotionPack](https://motionpack.shihaoeth.site/) generates photo-guided videos using Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro.
+- [Camera control studio](https://motionpack.shihaoeth.site/ai-camera-control-video-generator) draws and previews a path over a source photo.
 - [Real estate drone flythrough generator](https://motionpack.shihaoeth.site/tools/real-estate-drone-flythrough-generator) renders a start, curve, and target as a Catmull–Rom trajectory plate for a single AI-generated HD shot.
 - [Storefront and hotel FPV tour maker](https://motionpack.shihaoeth.site/tools/storefront-and-hotel-fpv-tour-maker) uses a drawn FPV or gimbal path for an entrance approach and removes red guide marks from the generated video.
 - [Copy camera motion from a reference video](https://motionpack.shihaoeth.site/tools/copy-camera-motion-from-reference-video) borrows camera movement from a curated clip and anchors appearance to one or two product photos.
