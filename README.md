@@ -14,9 +14,17 @@ Editable worked scenarios for AI infrastructure cost, field photo closeouts, and
 - [CloseoutPack](https://closeout.shihaoeth.site/) pairs jobsite photos by work-order line. Use its [move-out inspection checklist](https://closeout.shihaoeth.site/tools/move-out-inspection-checklist) for handovers, the [change order template](https://closeout.shihaoeth.site/tools/construction-change-order-template) to record scope and price changes, and the [submittal log](https://closeout.shihaoeth.site/tools/construction-submittal-log-template) for revision and approval history.
 - [LineSheetPack](https://linesheet.shihaoeth.site/) turns catalogs into buyer-specific line sheets. Use its [packing slip template](https://linesheet.shihaoeth.site/tools/wholesale-packing-slip-template), [product spec sheet](https://linesheet.shihaoeth.site/tools/product-spec-sheet-template), and [size-run order form](https://linesheet.shihaoeth.site/tools/wholesale-size-run-order-form) for fulfillment, product data, and per-size order quantities.
 
+### Rounding, font metrics, and investment modeling
+
+- Check rounding from measured per-serving values or compare the serving and package columns. [FDA Nutrition Facts generator](https://nutritionlabel.shihaoeth.site/tools/fda-nutrition-facts-generator) · [Dual-column Nutrition Facts maker](https://nutritionlabel.shihaoeth.site/tools/dual-column-nutrition-label-maker)
+- Calculate `size-adjust` and the vertical fallback metrics from measured font advances. [Webfont fallback CSS generator](https://samefont.shihaoeth.site/tools/webfont-cls-zero-layout-shift-fallback-generator)
+- Estimate cash payback, review discounting and scenario sensitivity, and price retrieval infrastructure separately. [AI agent payback calculator](https://airoipack.shihaoeth.site/tools/ai-agent-payback-period-calculator) · [Payback, NPV, and sensitivity guide](https://airoipack.shihaoeth.site/ai-payback-period-npv-and-sensitivity-analysis-guide) · [RAG and vector database worksheet](https://budgethub.shihaoeth.site/tools/rag-vector-db-tco-calculator)
+- Track insurance evidence before handing over a project. [Certificate of insurance checklist](https://closeout.shihaoeth.site/tools/certificate-of-insurance-coi-closeout-checklist)
+- Prepare an editorial assortment and a SKU-level wholesale line sheet. [Fashion lookbook and line sheet builder](https://linesheet.shihaoeth.site/tools/fashion-lookbook-vs-line-sheet-builder)
+
 ## MotionPack camera control
 
-MotionPack uses Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro for photo-guided video, motion transfer, and staged product ads. [MotionPack studio](https://motionpack.shihaoeth.site/)
+MotionPack uses Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro for photo-guided video, motion transfer, and staged product ads. [Camera control studio](https://motionpack.shihaoeth.site/ai-camera-control-video-generator)
 
 - **Real estate flythroughs** turn a start, curve, and target marked on a property photo into a Catmull–Rom trajectory plate for a single AI-generated HD shot. [Real estate drone flythrough generator](https://motionpack.shihaoeth.site/tools/real-estate-drone-flythrough-generator)
 - **Hospitality and storefront tours** use the same path controls for a drawn approach to a hotel, rental, or shop entrance. The red path guides the shot and is automatically removed from the generated video. [Storefront and hotel FPV tour maker](https://motionpack.shihaoeth.site/tools/storefront-and-hotel-fpv-tour-maker)
