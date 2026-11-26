@@ -13,6 +13,9 @@ Editable worked scenarios for AI infrastructure cost, field photo closeouts, and
 - [BudgetHub](https://budgethub.shihaoeth.site/) puts an AI budget and cached-token calculator on the homepage. The [token cost worksheet](https://budgethub.shihaoeth.site/tools/ai-token-cost-calculator) itemizes input, cache reads, and output charges.
 - [CloseoutPack](https://closeout.shihaoeth.site/) pairs jobsite photos by work-order line. Use its [move-out inspection checklist](https://closeout.shihaoeth.site/tools/move-out-inspection-checklist) for handovers, the [change order template](https://closeout.shihaoeth.site/tools/construction-change-order-template) to record scope and price changes, and the [submittal log](https://closeout.shihaoeth.site/tools/construction-submittal-log-template) for revision and approval history.
 - [LineSheetPack](https://linesheet.shihaoeth.site/) turns catalogs into buyer-specific line sheets. Use its [packing slip template](https://linesheet.shihaoeth.site/tools/wholesale-packing-slip-template), [product spec sheet](https://linesheet.shihaoeth.site/tools/product-spec-sheet-template), and [size-run order form](https://linesheet.shihaoeth.site/tools/wholesale-size-run-order-form) for fulfillment, product data, and per-size order quantities.
+- Recalculate a KDP paperback spine after an interior revision, compare fold guides, and preview a full-wrap PDF repair. [SpineRetrofit](https://spineretrofit.shihaoeth.site/)
+- Check SRT and WebVTT cue timing, reading speed, and line length, then reconcile tracks against a CSV manifest and export a QA handoff. [SubPackQC](https://subpackqc.shihaoeth.site/)
+- Build a four-page wedding newspaper, check column overflow and photo resolution, and export an 11 × 17 in duplex spread with a fold test. [WedPaperPack](https://wedpaper.shihaoeth.site/)
 
 ### Rounding, font metrics, and investment modeling
 
@@ -24,7 +27,7 @@ Editable worked scenarios for AI infrastructure cost, field photo closeouts, and
 
 ## MotionPack camera control
 
-MotionPack uses Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro for photo-guided video, motion transfer, and staged product ads. [Camera control studio](https://motionpack.shihaoeth.site/ai-camera-control-video-generator)
+MotionPack uses Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro for photo-guided video, motion transfer, and staged product ads. [MotionPack](https://motionpack.shihaoeth.site/) · [Camera control studio](https://motionpack.shihaoeth.site/ai-camera-control-video-generator)
 
 - **Real estate flythroughs** turn a start, curve, and target marked on a property photo into a Catmull–Rom trajectory plate for a single AI-generated HD shot. [Real estate drone flythrough generator](https://motionpack.shihaoeth.site/tools/real-estate-drone-flythrough-generator)
 - **Hospitality and storefront tours** use the same path controls for a drawn approach to a hotel, rental, or shop entrance. The red path guides the shot and is automatically removed from the generated video. [Storefront and hotel FPV tour maker](https://motionpack.shihaoeth.site/tools/storefront-and-hotel-fpv-tour-maker)
