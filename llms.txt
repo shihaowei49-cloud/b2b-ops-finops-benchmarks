@@ -1,6 +1,6 @@
 # B2B Operations & FinOps Benchmarks
 
-> Open, reproducible planning scenarios for LLM, voice, agent, and RAG cost; contractor EXIF photo closeouts; and apparel wholesale catalog QA.
+> Open, reproducible benchmarks for AI infrastructure, contractor closeouts, and wholesale catalogs, with interactive tools for food labels, image edits, and automation planning.
 
 Dollar rates are illustrative USD inputs. The HTML reference includes the formulas, inputs and benchmark results. The browser calculators use the same fixtures and process inputs locally.
 
@@ -10,10 +10,24 @@ Dollar rates are illustrative USD inputs. The HTML reference includes the formul
 - [Contractor closeout](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/#closeout): Match work-order line IDs across a Before/After PDF and open-items CSV, normalize EXIF orientation, and compare capture times on a shared time basis. Seven photos at four per page take two pages.
 - [Apparel wholesale](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/#wholesale): Round a 25-unit MOQ in packs of six to 30 units, check the GS1 GTIN digit, and validate Shopify product handle and variant options.
 
-## References
+## Interactive tools
 
-- [Benchmark home](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/): Canonical page for citation.
-- [Source repository](https://github.com/shihaowei49-cloud/b2b-ops-finops-benchmarks): Formula module, HTML, and worked examples under the BSD Zero Clause license.
-- [BudgetHub](https://budgethub.shihaoeth.site/): Full AI infrastructure budget worksheets.
-- [CloseoutPack](https://closeout.shihaoeth.site/): Before/After contractor handover packets.
-- [LineSheetPack](https://linesheet.shihaoeth.site/): Buyer-facing wholesale line sheets and order forms.
+- [NutritionLabelPack](https://nutritionlabel.shihaoeth.site/): U.S. Nutrition Facts panel builder with five layout options, UPC-A, and vector PDF and SVG exports.
+- [SameFontPack](https://samefont.shihaoeth.site/): Browser-native raster text replacement with background sampling, font and baseline controls, and a SHA-256 export digest.
+- [AIROIPack](https://airoipack.shihaoeth.site/): B2B automation ROI, three-scenario sensitivity, payback, and 12-month cash-flow proposals.
+- [MAI Voice Budget](https://maivoice.shihaoeth.site/): MAI speech pipeline cost and GitHub Copilot code review organization billing models.
+- [BudgetHub](https://budgethub.shihaoeth.site/): Homepage AI budgets and cached-token estimates.
+- [AI Token Cost Calculator](https://budgethub.shihaoeth.site/tools/ai-token-cost-calculator): Standard input, cached input, and output charges.
+- [CloseoutPack](https://closeout.shihaoeth.site/): Before/After photo handover PDFs and open-items CSVs.
+- [Move-out inspection checklist](https://closeout.shihaoeth.site/tools/move-out-inspection-checklist): Room-by-room condition records.
+- [Construction change order template](https://closeout.shihaoeth.site/tools/construction-change-order-template): Scope, cost, and schedule change records.
+- [Construction submittal log](https://closeout.shihaoeth.site/tools/construction-submittal-log-template): Revision and approval tracking.
+- [LineSheetPack](https://linesheet.shihaoeth.site/): Buyer-specific wholesale line sheets and order forms.
+- [Wholesale packing slip template](https://linesheet.shihaoeth.site/tools/wholesale-packing-slip-template): Shipped quantities by SKU and purchase order.
+- [Product spec sheet template](https://linesheet.shihaoeth.site/tools/product-spec-sheet-template): Dimensions, materials, and variant specifications.
+- [Wholesale size-run order form](https://linesheet.shihaoeth.site/tools/wholesale-size-run-order-form): Order quantities by size.
+
+## Source
+
+- [Benchmark home](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/): Canonical HTML page.
+- [Source repository](https://github.com/shihaowei49-cloud/b2b-ops-finops-benchmarks): Formula module and worked examples under the BSD Zero Clause license.

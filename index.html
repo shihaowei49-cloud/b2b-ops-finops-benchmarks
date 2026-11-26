@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>B2B Operations &amp; FinOps Benchmarks</title>
-  <meta name="description" content="Open worked examples and browser calculators for AI cost, contractor photo closeouts, and apparel wholesale data.">
+  <meta name="description" content="Open benchmarks and browser calculators for AI costs, jobsite closeouts, and wholesale data, plus tools for packaging labels, image edits, and automation ROI.">
   <link rel="canonical" href="https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/">
   <link rel="sitemap" type="application/xml" href="./sitemap.xml">
   <link rel="stylesheet" href="./styles.css">
@@ -26,14 +26,40 @@
     <div class="intro">
       <div>
         <h1>B2B Operations <span>&amp; FinOps Benchmarks</span></h1>
-        <p>Reproduce an AI cost estimate, size a contractor photo packet, or check a wholesale order before export. Each benchmark shows its inputs, assumptions, and expected result.</p>
+        <p>Reproduce an AI cost estimate, size a contractor photo packet, or check a wholesale order before export. The worked examples show the inputs, assumptions, and expected results.</p>
       </div>
       <nav class="contents" aria-label="On this page">
+        <a href="#operator-tools">Labeling, image editing, and AI planning</a>
         <a href="#finops">AI infrastructure cost</a>
         <a href="#closeout">Contractor closeout</a>
         <a href="#wholesale">Apparel wholesale</a>
       </nav>
     </div>
+
+    <section id="operator-tools" aria-labelledby="operator-tools-title">
+      <div class="section-heading">
+        <h2 id="operator-tools-title">Labeling, image editing, and AI planning</h2>
+        <p>Four interactive tools for preparing a print proof, editing a raster asset, or pricing an AI project.</p>
+      </div>
+      <div class="calculators">
+        <article>
+          <h3><a href="https://nutritionlabel.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">NutritionLabelPack</a></h3>
+          <p>Build a U.S. Nutrition Facts panel using 21 CFR 101.9 as the reference. Choose standard vertical, tabular, linear, dual-column, or bilingual English and Spanish output. Add a UPC-A barcode and export a vector PDF or SVG for print review.</p>
+        </article>
+        <article>
+          <h3><a href="https://samefont.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">SameFontPack</a></h3>
+          <p>Replace a line in a raster image in the browser. Sample the nearby background, align type, stroke, and baseline, then export a fresh PNG or WebP with a SHA-256 digest of the output bytes.</p>
+        </article>
+        <article>
+          <h3><a href="https://airoipack.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">AIROIPack</a></h3>
+          <p>Model B2B automation payback from implementation cost, operating costs, and realized savings. Compare three scenarios and turn the 12-month cash-flow model into a finance proposal.</p>
+        </article>
+        <article>
+          <h3><a href="https://maivoice.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">MAI Voice Budget</a></h3>
+          <p>Compare a Microsoft MAI-Voice-2 and MAI-Transcribe-2 pipeline with a Realtime voice stack. Use the separate Copilot code review model to forecast organization costs ahead of GitHub’s December 30, 2026 billing default change.</p>
+        </article>
+      </div>
+    </section>
 
     <noscript><p class="notice">Enable JavaScript to recalculate. The tables show the worked results for the prefilled inputs.</p></noscript>
 
@@ -97,7 +123,16 @@
           <tr><th scope="row">RAG + vector store</th><td>$18.30 generation + $0.30 embeddings + $30 store + $6 reranking. Assumes zero egress charges.</td><td>$54.60</td></tr>
         </tbody>
       </table>
-      <p class="references">Build a full budget in <a href="https://budgethub.shihaoeth.site/">BudgetHub</a> or model <a href="https://budgethub.shihaoeth.site/tools/rag-vector-db-tco-calculator">RAG and vector database TCO</a>. For meter-specific estimates, use the <a href="https://llmtoken.shihaoeth.site/">LLM Token Estimator</a>, <a href="https://voicebudget.shihaoeth.site/">Voice Budget</a>, or <a href="https://apicache.shihaoeth.site/ai-agent-retry-and-prompt-cache-tco.html">Agent Retry and Prompt Cache TCO</a>. Adjacent tools cover <a href="https://worldbudget.shihaoeth.site/">interactive sessions</a>, <a href="https://imagebudget.shihaoeth.site/">image generation</a>, <a href="https://runnerbudget.shihaoeth.site/">CI runners</a>, and <a href="https://setbudget.shihaoeth.site/">search and enrichment</a>.</p>
+      <h3><a href="https://budgethub.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">BudgetHub</a></h3>
+      <p>Build an AI budget from the live homepage calculator. Use the <a href="https://budgethub.shihaoeth.site/tools/ai-token-cost-calculator?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">token cost calculator</a> to split standard input, cached input, and output into separate charges.</p>
+      <details class="references">
+        <summary>Related infrastructure cost models</summary>
+        <ul>
+          <li>Add retrieval overhead with the <a href="https://budgethub.shihaoeth.site/tools/rag-vector-db-tco-calculator">RAG and vector database worksheet</a>.</li>
+          <li>Isolate <a href="https://llmtoken.shihaoeth.site/">LLM tokens</a>, <a href="https://voicebudget.shihaoeth.site/">voice standby</a>, or <a href="https://apicache.shihaoeth.site/ai-agent-retry-and-prompt-cache-tco.html">agent retries and prompt caching</a>.</li>
+          <li>Price <a href="https://worldbudget.shihaoeth.site/">interactive sessions</a>, <a href="https://imagebudget.shihaoeth.site/">image generation</a>, <a href="https://runnerbudget.shihaoeth.site/">CI runners</a>, and <a href="https://setbudget.shihaoeth.site/">search and enrichment</a> in their own billing units.</li>
+        </ul>
+      </details>
     </section>
 
     <section id="closeout" aria-labelledby="closeout-title">
@@ -128,7 +163,17 @@
           </tbody>
         </table>
       </div>
-      <p class="references"><a href="https://www.cipa.jp/e/std/std-sec.html">CIPA Exif specification</a> defines the metadata fields. Use <a href="https://closeout.shihaoeth.site/">CloseoutPack</a> for the handover packet, the <a href="https://closeout.shihaoeth.site/tools/subcontractor-daily-report-generator">Subcontractor Daily Report Generator</a> for daily records, <a href="https://jobquote.shihaoeth.site/">JobQuote</a> for scope pricing, and <a href="https://punchlist.shihaoeth.site/">PunchList</a> for open items.</p>
+      <h3><a href="https://closeout.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">CloseoutPack</a></h3>
+      <p>Turn before-and-after job photos into a handover PDF and an open-items CSV.</p>
+      <ul>
+        <li><a href="https://closeout.shihaoeth.site/tools/move-out-inspection-checklist?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Move-out inspection checklist</a> for documenting condition by room.</li>
+        <li><a href="https://closeout.shihaoeth.site/tools/construction-change-order-template?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Construction change order template</a> for recording scope, cost, and schedule changes.</li>
+        <li><a href="https://closeout.shihaoeth.site/tools/construction-submittal-log-template?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Construction submittal log</a> for tracking revisions and approvals.</li>
+      </ul>
+      <details class="references">
+        <summary>Related field records and standards</summary>
+        <p>See the <a href="https://www.cipa.jp/e/std/std-sec.html">CIPA Exif specification</a> for the metadata fields. Keep <a href="https://closeout.shihaoeth.site/tools/subcontractor-daily-report-generator">daily reports</a>, <a href="https://jobquote.shihaoeth.site/">scope estimates</a>, and <a href="https://punchlist.shihaoeth.site/">punch lists</a> alongside the closeout packet.</p>
+      </details>
     </section>
 
     <section id="wholesale" aria-labelledby="wholesale-title">
@@ -165,13 +210,23 @@
           <tr><th scope="row">Shopify CSV</th><td>Use a fresh store export as the UTF-8 schema template. Check product handle and option combinations, then retain SKUs and barcodes as text.</td><td>Two rows with the same handle and complete option tuple flag a duplicate. Preserve the UPC's initial zero.</td></tr>
         </tbody>
       </table>
-      <p class="references">See the <a href="https://ref.gs1.org/standards/genspecs/">GS1 General Specifications</a> and <a href="https://help.shopify.com/en/manual/products/import-export/using-csv">Shopify product CSV documentation</a>. Use <a href="https://linesheet.shihaoeth.site/">LineSheetPack</a> and the <a href="https://linesheet.shihaoeth.site/tools/wholesale-order-form-generator">Wholesale Order Form Generator</a> for buyer documents, <a href="https://moqcalc.shihaoeth.site/">MOQ Calc</a> for case sizing, <a href="https://csvclean.shihaoeth.site/shopify-product-csv-variant-validator.html">CSV Clean</a> for variant checks, and <a href="https://barcodelab.shihaoeth.site/gs1-gtin-check-digit-and-upc-ean-validator.html">Barcode Lab</a> for batches of GTINs.</p>
+      <h3><a href="https://linesheet.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">LineSheetPack</a></h3>
+      <p>Generate separate wholesale line sheets and order forms for buyer groups from a single catalog.</p>
+      <ul>
+        <li><a href="https://linesheet.shihaoeth.site/tools/wholesale-packing-slip-template?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Wholesale packing slip</a> for reconciling shipped quantities against a purchase order.</li>
+        <li><a href="https://linesheet.shihaoeth.site/tools/product-spec-sheet-template?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Product spec sheet</a> for handing off dimensions, materials, and variant details.</li>
+        <li><a href="https://linesheet.shihaoeth.site/tools/wholesale-size-run-order-form?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Wholesale size-run order form</a> for collecting quantities by size.</li>
+      </ul>
+      <details class="references">
+        <summary>Related catalog checks and standards</summary>
+        <p>Prepare a <a href="https://linesheet.shihaoeth.site/tools/wholesale-order-form-generator">buyer order form</a>, check <a href="https://moqcalc.shihaoeth.site/">case sizing</a>, scan for <a href="https://csvclean.shihaoeth.site/shopify-product-csv-variant-validator.html">duplicate variants</a>, and validate <a href="https://barcodelab.shihaoeth.site/gs1-gtin-check-digit-and-upc-ean-validator.html">GTIN check digits in batches</a>. See the <a href="https://ref.gs1.org/standards/genspecs/">GS1 General Specifications</a> and <a href="https://help.shopify.com/en/manual/products/import-export/using-csv">Shopify product CSV documentation</a>.</p>
+      </details>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="shell">
-      <p>All calculator inputs stay in the browser. The maintainers also publish the linked BudgetHub, CloseoutPack, and LineSheetPack tools.</p>
+      <p>The showcase calculators process inputs in the browser. The maintainers also publish the featured products.</p>
       <p><a href="https://github.com/shihaowei49-cloud/b2b-ops-finops-benchmarks/blob/main/LICENSE">BSD Zero Clause License</a></p>
     </div>
   </footer>

@@ -2,7 +2,17 @@
 
 [Open the benchmark and calculators](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/) · [Plain-text index](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/llms.txt)
 
-Editable worked scenarios for AI infrastructure cost, field photo closeouts, and apparel wholesale catalogs. All dollar rates are illustrative USD inputs. Calculator inputs stay in the browser.
+Editable worked scenarios for AI infrastructure cost, field photo closeouts, and apparel wholesale catalogs. All dollar rates in the showcase are illustrative USD inputs. The showcase calculators process inputs in the browser.
+
+## Interactive tools
+
+- [NutritionLabelPack](https://nutritionlabel.shihaoeth.site/) builds Nutrition Facts panels for U.S. packaging using 21 CFR 101.9 as the reference. Preview standard vertical, tabular, linear, dual-column, or bilingual English/Spanish layouts. Add UPC-A and export vector PDF or SVG. Specify 300 DPI when rasterizing for a print workflow that requires it.
+- [SameFontPack](https://samefont.shihaoeth.site/) replaces raster text in the browser. Sample the background, match the font, stroke, and baseline, and export a fresh PNG or WebP with an output SHA-256 digest.
+- [AIROIPack](https://airoipack.shihaoeth.site/) models automation ROI and payback, tests three scenarios for finance review, and charts 12 months of cash flow for a business proposal.
+- [MAI Voice Budget](https://maivoice.shihaoeth.site/) estimates MAI-Voice-2 and MAI-Transcribe-2 pipeline cost and models GitHub Copilot code review organization billing ahead of the December 30, 2026 default change.
+- [BudgetHub](https://budgethub.shihaoeth.site/) puts an AI budget and cached-token calculator on the homepage. The [token cost worksheet](https://budgethub.shihaoeth.site/tools/ai-token-cost-calculator) itemizes input, cache reads, and output charges.
+- [CloseoutPack](https://closeout.shihaoeth.site/) pairs jobsite photos by work-order line. Use its [move-out inspection checklist](https://closeout.shihaoeth.site/tools/move-out-inspection-checklist) for handovers, the [change order template](https://closeout.shihaoeth.site/tools/construction-change-order-template) to record scope and price changes, and the [submittal log](https://closeout.shihaoeth.site/tools/construction-submittal-log-template) for revision and approval history.
+- [LineSheetPack](https://linesheet.shihaoeth.site/) turns catalogs into buyer-specific line sheets. Use its [packing slip template](https://linesheet.shihaoeth.site/tools/wholesale-packing-slip-template), [product spec sheet](https://linesheet.shihaoeth.site/tools/product-spec-sheet-template), and [size-run order form](https://linesheet.shihaoeth.site/tools/wholesale-size-run-order-form) for fulfillment, product data, and per-size order quantities.
 
 ## Worked benchmarks
 
@@ -45,8 +55,8 @@ Place this directory's contents at the root of the `b2b-ops-finops-benchmarks` r
 
 ## References
 
-- **FinOps** · [BudgetHub](https://budgethub.shihaoeth.site/) · [RAG and vector database TCO](https://budgethub.shihaoeth.site/tools/rag-vector-db-tco-calculator) · [LLM Token Estimator](https://llmtoken.shihaoeth.site/) · [Voice Budget](https://voicebudget.shihaoeth.site/) · [Agent Retry and Prompt Cache](https://apicache.shihaoeth.site/ai-agent-retry-and-prompt-cache-tco.html)
-- **Closeout** · [CIPA Exif specification](https://www.cipa.jp/e/std/std-sec.html) · [CloseoutPack](https://closeout.shihaoeth.site/) · [Subcontractor Daily Report Generator](https://closeout.shihaoeth.site/tools/subcontractor-daily-report-generator) · [JobQuote](https://jobquote.shihaoeth.site/) · [PunchList](https://punchlist.shihaoeth.site/)
-- **Wholesale** · [GS1 General Specifications](https://ref.gs1.org/standards/genspecs/) · [Shopify product CSV documentation](https://help.shopify.com/en/manual/products/import-export/using-csv) · [LineSheetPack](https://linesheet.shihaoeth.site/) · [Wholesale Order Form Generator](https://linesheet.shihaoeth.site/tools/wholesale-order-form-generator) · [MOQ Calc](https://moqcalc.shihaoeth.site/) · [CSV Clean](https://csvclean.shihaoeth.site/shopify-product-csv-variant-validator.html) · [Barcode Lab](https://barcodelab.shihaoeth.site/gs1-gtin-check-digit-and-upc-ean-validator.html)
+- [CIPA Exif specification](https://www.cipa.jp/e/std/std-sec.html) defines the photo metadata used in the closeout example.
+- [GS1 General Specifications](https://ref.gs1.org/standards/genspecs/) covers GTIN and barcode checks. [Shopify's product CSV documentation](https://help.shopify.com/en/manual/products/import-export/using-csv) explains the catalog import schema.
+- [21 CFR 101.9](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.9) defines U.S. Nutrition Facts declarations and layout rules.
 
 The maintainers also publish the linked tools. The showcase code and worked examples use the [BSD Zero Clause License](LICENSE).
