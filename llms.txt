@@ -1,6 +1,6 @@
 # B2B Operations & FinOps Benchmarks
 
-> Open, reproducible benchmarks for AI infrastructure, contractor closeouts, and wholesale catalogs, with interactive tools for food labels, image edits, and automation planning.
+> Open, reproducible benchmarks for AI infrastructure, contractor closeouts, and wholesale catalogs, with interactive tools for food labels, image edits, automation planning, and AI video camera control.
 
 Dollar rates are illustrative USD inputs. The HTML reference includes the formulas, inputs and benchmark results. The browser calculators use the same fixtures and process inputs locally.
 
@@ -26,6 +26,14 @@ Dollar rates are illustrative USD inputs. The HTML reference includes the formul
 - [Wholesale packing slip template](https://linesheet.shihaoeth.site/tools/wholesale-packing-slip-template): Shipped quantities by SKU and purchase order.
 - [Product spec sheet template](https://linesheet.shihaoeth.site/tools/product-spec-sheet-template): Dimensions, materials, and variant specifications.
 - [Wholesale size-run order form](https://linesheet.shihaoeth.site/tools/wholesale-size-run-order-form): Order quantities by size.
+
+## MotionPack camera control
+
+- [MotionPack](https://motionpack.shihaoeth.site/) generates photo-guided videos using Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro.
+- [Real estate drone flythrough generator](https://motionpack.shihaoeth.site/tools/real-estate-drone-flythrough-generator) renders a start, curve, and target as a Catmull–Rom trajectory plate for a single AI-generated HD shot.
+- [Storefront and hotel FPV tour maker](https://motionpack.shihaoeth.site/tools/storefront-and-hotel-fpv-tour-maker) uses a drawn FPV or gimbal path for an entrance approach and removes red guide marks from the generated video.
+- [Copy camera motion from a reference video](https://motionpack.shihaoeth.site/tools/copy-camera-motion-from-reference-video) borrows camera movement from a curated clip and anchors appearance to one or two product photos.
+- [AI product video generator from a photo](https://motionpack.shihaoeth.site/tools/ai-product-video-generator-from-photo) stages a 2K scene and generates a five- or ten-second ad with native English lip-sync.
 
 ## Source
 
