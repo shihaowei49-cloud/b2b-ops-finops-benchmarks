@@ -34,6 +34,9 @@ Dollar rates are illustrative USD inputs. The HTML reference includes the formul
 - [Product spec sheet template](https://linesheet.shihaoeth.site/tools/product-spec-sheet-template): Dimensions, materials, and variant specifications.
 - [Wholesale size-run order form](https://linesheet.shihaoeth.site/tools/wholesale-size-run-order-form): Order quantities by size.
 - [Fashion lookbook and line sheet builder](https://linesheet.shihaoeth.site/tools/fashion-lookbook-vs-line-sheet-builder): Prepares a visual assortment and buyer-facing SKU list.
+- Recalculates KDP paperback spine width, compares old and new fold guides, and previews a full-wrap PDF repair. [SpineRetrofit](https://spineretrofit.shihaoeth.site/)
+- Checks SRT and WebVTT cues for timing, reading speed, and line length, then reconciles subtitle tracks against a CSV manifest. [SubPackQC](https://subpackqc.shihaoeth.site/)
+- Builds four-page wedding newspapers with text and photo checks, an 11 × 17 in duplex PDF, and a print-shop fold test. [WedPaperPack](https://wedpaper.shihaoeth.site/)
 
 ## MotionPack camera control
 
