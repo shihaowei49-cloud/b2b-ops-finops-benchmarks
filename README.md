@@ -31,6 +31,12 @@ Editable worked scenarios for AI infrastructure cost, field photo closeouts, and
 - Reconcile bank statement PDFs to the cent and export QuickBooks CSV or XLSX. The 50-Page Pass costs $19 once or $15.20 with `LAUNCH20`. [StatementPack](https://statementpack.shihaoeth.site/)
 - Allocate partial rent payments, track late fees, and export tenant ledger PDFs and CSVs. The 5-Unit Pass costs $9 once or $7.20 with `LAUNCH20`. [RentLedgerPack](https://rentledger.shihaoeth.site/)
 
+## Commissions, design procurement, and debt payoff
+
+- Calculate sales commission tiers, rep splits, and clawbacks, then export rep statement PDFs and a payroll XLSX workbook. The Pay-Run Pass costs $24 once or $19.20 with `LAUNCH20`. [CommissionPack](https://commissionpack.shihaoeth.site/)
+- Organize furniture, fixtures, and equipment by room, then export a client approval PDF and a vendor procurement XLSX workbook. The Project Pass costs $19 once or $15.20 with `LAUNCH20`. [FFESpecPack](https://ffespec.shihaoeth.site/)
+- Compare debt snowball and avalanche strategies with fixed-point amortization, an XLSX workbook, and a side-by-side PDF. The Household Workbook Pass costs $12 once or $9.60 with `LAUNCH20`. [DebtScenarioPack](https://debtscenario.shihaoeth.site/)
+
 ## MotionPack camera control
 
 MotionPack uses Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro for photo-guided video, motion transfer, and staged product ads. [MotionPack](https://motionpack.shihaoeth.site/) · [Camera control studio](https://motionpack.shihaoeth.site/ai-camera-control-video-generator)
