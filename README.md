@@ -4,6 +4,8 @@
 
 Editable worked scenarios for AI infrastructure cost, field photo closeouts, and apparel wholesale catalogs. Benchmark rates are illustrative USD inputs. The showcase calculators process inputs in the browser.
 
+The portfolio spans 59 sites, including 28 ShipAny commercial hubs.
+
 ## Interactive tools
 
 - [NutritionLabelPack](https://nutritionlabel.shihaoeth.site/) builds Nutrition Facts panels for U.S. packaging using 21 CFR 101.9 as the reference. Preview standard vertical, tabular, linear, dual-column, or bilingual English/Spanish layouts. Add UPC-A and export vector PDF or SVG. Specify 300 DPI when rasterizing for a print workflow that requires it.
@@ -54,6 +56,12 @@ Editable worked scenarios for AI infrastructure cost, field photo closeouts, and
 - Prepare prevailing-wage certified payroll and reconcile fringe credits and cash-in-lieu payments in a PDF and XLSX worksheet pack. The Weekly Payroll Run Pass costs $29 once or $23.20 with `LAUNCH20`. [WH347Pack](https://wh347.shihaoeth.site/)
 - Allocate a condo or HOA special assessment by unit, schedule installments, and prepare owner notices with PDF and XLSX exports. The Board Assessment Pass costs $29 once or $23.20 with `LAUNCH20`. [HOASpecialPack](https://hoaspecial.shihaoeth.site/)
 - Record check-out and return condition for equipment, tools, and AV gear, then export meter overages and deposit settlements as PDF and XLSX. The Rental Contract & Deposit Pass costs $24 once or $19.20 with `LAUNCH20`. [EquipRentPack](https://equiprent.shihaoeth.site/)
+
+## Trust reconciliation, commissary logs, and tip pools
+
+- Reconcile the adjusted bank balance, cash book, and beneficiary ledgers. Export reviewer PDFs, an Excel workbook, and audit CSV. The Month-End 3-Way Close Pass costs $29 once or $23.20 with `LAUNCH20`. [TrustReconPack](https://trustrecon.shihaoeth.site/)
+- Compare food truck operating days with commissary visits and wastewater records. Export a monthly inspection packet with PDFs, Excel, and CSV. The Monthly Inspection Log Pass costs $24 once or $19.20 with `LAUNCH20`. [CommissaryPack](https://commissary.shihaoeth.site/)
+- Reconcile card and cash tips, allocate payouts by weighted hours or percentages, and export staff slips, manager sign-off, Excel, and payroll CSVs. The Pay-Period Tip Pool Pass costs $24 once or $19.20 with `LAUNCH20`. [TipPoolPack](https://tippool.shihaoeth.site/)
 
 ## MotionPack camera control
 
