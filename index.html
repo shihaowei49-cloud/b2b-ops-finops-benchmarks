@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>B2B Operations &amp; FinOps Benchmarks</title>
-  <meta name="description" content="Open benchmarks for AI costs, jobsite closeouts, and wholesale data, plus tools for boat haul-outs, kitchen hood cleaning records, and self-storage delinquency review.">
+  <meta name="description" content="Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 34 commercial B2B hubs, and 31 free tools.">
   <link rel="canonical" href="https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/">
   <link rel="sitemap" type="application/xml" href="./sitemap.xml">
+  <link rel="describedby" href="./llms.txt">
   <link rel="stylesheet" href="./styles.css">
   <script type="module" src="./app.mjs"></script>
 </head>
@@ -26,288 +28,299 @@
     <div class="intro">
       <div>
         <h1>B2B Operations <span>&amp; FinOps Benchmarks</span></h1>
-        <p>Reproduce an AI cost estimate, size a contractor photo packet, or check a wholesale order before export. The worked examples show the inputs, assumptions, and expected results.</p>
-        <p>The portfolio spans 65 sites, including 34 ShipAny commercial hubs.</p>
+        <p>Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 34 commercial B2B hubs, and 31 free tools.</p>
+        <p>Reproduce an AI cost estimate, size a contractor photo packet, or check a wholesale order with the worked examples below.</p>
       </div>
       <nav class="contents" aria-label="On this page">
-        <a href="#motionpack">AI video camera control</a>
-        <a href="#operator-tools">Labeling, image editing, and AI planning</a>
-        <a href="#production-tools">PDF prepress and subtitle QC</a>
-        <a href="#operations-tools">Catering, bookkeeping, and rent</a>
-        <a href="#planning-tools">Commissions, design procurement, and debt payoff</a>
-        <a href="#field-operations">Construction draws, consignment, and kennel boarding</a>
-        <a href="#reconciliation-tools">Freight audits, invoice matching, and CAM reconciliation</a>
-        <a href="#payroll-assessment-rental">Certified payroll, HOA assessments, and equipment rentals</a>
-        <a href="#trust-hospitality-tools">Trust reconciliation, commissary logs, and tip pools</a>
-        <a href="#settlement-change-dental-tools">Driver settlements, change orders, and dental estimates</a>
-        <a href="#boatyard-hood-storage-tools">Boatyard work orders, hood cleaning records, and self-storage</a>
+        <a href="#open-source-libraries">Open-source libraries and demos</a>
+        <a href="#commercial-hubs">Commercial hubs</a>
+        <a href="#free-tools">Free tools</a>
         <a href="#finops">AI infrastructure cost</a>
         <a href="#closeout">Contractor closeout</a>
         <a href="#wholesale">Apparel wholesale</a>
       </nav>
     </div>
 
-    <section id="motionpack" aria-labelledby="motionpack-title">
+    <section id="open-source-libraries" aria-labelledby="libraries-title">
       <div class="section-heading">
-        <h2 id="motionpack-title"><a href="https://motionpack.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=motionpack_launch_20261127">MotionPack</a></h2>
-        <p>Draw an FPV or gimbal move on a photo, transfer camera movement from a reference clip, or turn a product photo into a spoken ad. Set your anchors in the <a href="https://motionpack.shihaoeth.site/ai-camera-control-video-generator">camera control studio</a>.</p>
+        <h2 id="libraries-title">Open-source libraries and demos</h2>
+        <p>Each library uses ES modules, carries the MIT license, and has zero dependencies.</p>
       </div>
       <div class="calculators">
         <article>
-          <h3><a href="https://motionpack.shihaoeth.site/tools/real-estate-drone-flythrough-generator?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=motionpack_launch_20261127">Real estate drone flythrough generator</a></h3>
-          <p>Mark the start, curve, and target on a property photo. A Catmull–Rom spline produces a smooth trajectory plate that guides a single AI-generated HD shot.</p>
-        </article>
-        <article>
-          <h3><a href="https://motionpack.shihaoeth.site/tools/storefront-and-hotel-fpv-tour-maker?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=motionpack_launch_20261127">Storefront and hotel FPV tour maker</a></h3>
-          <p>Draw an approach to a storefront, hotel, or rental entrance. The red path and arrow guide the FPV or gimbal move and are automatically removed from the generated shot.</p>
-        </article>
-        <article>
-          <h3><a href="https://motionpack.shihaoeth.site/tools/copy-camera-motion-from-reference-video?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=motionpack_launch_20261127">Copy camera motion from a reference video</a></h3>
-          <p>Use a curated clip to guide the camera movement and one or two product or brand photos to anchor the subject's appearance.</p>
-        </article>
-        <article>
-          <h3><a href="https://motionpack.shihaoeth.site/tools/ai-product-video-generator-from-photo?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=motionpack_launch_20261127">AI product video generator from a photo</a></h3>
-          <p>Stage a 2K scene with Seedream 5.0 Pro from one product photo, then generate a five- or ten-second ad with native English lip-sync in Seedance 2.5.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="operator-tools" aria-labelledby="operator-tools-title">
-      <div class="section-heading">
-        <h2 id="operator-tools-title">Labeling, image editing, and AI planning</h2>
-        <p>Four interactive tools for preparing a print proof, editing a raster asset, or pricing an AI project.</p>
-      </div>
-      <div class="calculators">
-        <article>
-          <h3><a href="https://nutritionlabel.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">NutritionLabelPack</a></h3>
-          <p>Build a U.S. Nutrition Facts panel using 21 CFR 101.9 as the reference. Choose standard vertical, tabular, linear, dual-column, or bilingual English and Spanish output. Add a UPC-A barcode and export a vector PDF or SVG for print review.</p>
+          <h3>FDA 21 CFR 101.9 nutrition rounding</h3>
+          <p>FDA Nutrition Facts amount rounding and percent Daily Value reference</p>
           <ul>
-            <li><a href="https://nutritionlabel.shihaoeth.site/tools/fda-nutrition-facts-generator">FDA Nutrition Facts generator</a> for checking per-serving rounding.</li>
-            <li><a href="https://nutritionlabel.shihaoeth.site/tools/dual-column-nutrition-label-maker">Dual-column Nutrition Facts maker</a> for comparing serving and package declarations.</li>
+            <li><a href="https://github.com/shihaowei49-cloud/fda-21cfr101-nutrition-rounding">fda-21cfr101-nutrition-rounding</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/fda-21cfr101-nutrition-rounding/">Interactive demo</a></li>
+            <li><a href="https://nutritionlabel.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">NutritionLabelPack</a></li>
           </ul>
         </article>
         <article>
-          <h3><a href="https://samefont.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">SameFontPack</a></h3>
-          <p>Replace a line in a raster image in the browser. Sample the nearby background, align type, stroke, and baseline, then export a fresh PNG or WebP with a SHA-256 digest of the output bytes.</p>
-          <p>Use the <a href="https://samefont.shihaoeth.site/tools/webfont-cls-zero-layout-shift-fallback-generator">webfont fallback CSS generator</a> to match glyph advance and line metrics before a font swap.</p>
-        </article>
-        <article>
-          <h3><a href="https://airoipack.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">AIROIPack</a></h3>
-          <p>Model B2B automation payback from implementation cost, operating costs, and realized savings. Compare three scenarios and turn the 12-month cash-flow model into a finance proposal.</p>
+          <h3>Shopify line-sheet CSV linter</h3>
+          <p>Preflight Shopify product CSVs for wholesale SKUs, variants, and integer-cent prices</p>
           <ul>
-            <li><a href="https://airoipack.shihaoeth.site/tools/ai-agent-payback-period-calculator">AI agent payback calculator</a> for comparing adoption cases.</li>
-            <li><a href="https://airoipack.shihaoeth.site/ai-payback-period-npv-and-sensitivity-analysis-guide">Payback, NPV, and sensitivity guide</a> for reviewing the model assumptions.</li>
+            <li><a href="https://github.com/shihaowei49-cloud/shopify-linesheet-csv-linter">shopify-linesheet-csv-linter</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/shopify-linesheet-csv-linter/">Interactive demo</a></li>
+            <li><a href="https://linesheet.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">LineSheetPack</a></li>
           </ul>
         </article>
         <article>
-          <h3><a href="https://maivoice.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">MAI Voice Budget</a></h3>
-          <p>Compare a Microsoft MAI-Voice-2 and MAI-Transcribe-2 pipeline with a Realtime voice stack. Use the separate Copilot code review model to forecast organization costs ahead of GitHub’s December 30, 2026 billing default change.</p>
+          <h3>WH-347 Davis-Bacon fringe calculator</h3>
+          <p>Davis-Bacon workweek overtime, fringe credit, and cash-in-lieu payroll arithmetic</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/wh347-davis-bacon-fringe-calc">wh347-davis-bacon-fringe-calc</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/wh347-davis-bacon-fringe-calc/">Interactive demo</a></li>
+            <li><a href="https://wh347.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">WH347Pack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>Book spine and cover calculator</h3>
+          <p>Exact spine, cover wrap, bleed and barcode geometry for KDP and IngramSpark.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/kdp-book-spine-width-calc">kdp-book-spine-width-calc</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/kdp-book-spine-width-calc/">Interactive demo</a></li>
+            <li><a href="https://spineretrofit.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">SpineRetrofit</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>SRT and WebVTT broadcast QC linter</h3>
+          <p>Dependency-free SRT and WebVTT timing, readability and shot-gap quality checks.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/srt-vtt-broadcast-qc-linter">srt-vtt-broadcast-qc-linter</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/srt-vtt-broadcast-qc-linter/">Interactive demo</a></li>
+            <li><a href="https://subpackqc.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">SubPackQC</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>Commercial CAM pro-rata calculator</h3>
+          <p>Exact-cent NNN commercial lease CAM reconciliation for occupancy gross-up, controllable caps and base-year stops.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/commercial-cam-pro-rata-calc">commercial-cam-pro-rata-calc</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/commercial-cam-pro-rata-calc/">Interactive demo</a></li>
+            <li><a href="https://camrecon.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">CAMReconPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>Sales tiered commission calculator</h3>
+          <p>Exact-cent sales commission tiers, split credit, clawbacks and draw settlement.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/sales-tiered-commission-calc">sales-tiered-commission-calc</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/sales-tiered-commission-calc/">Interactive demo</a></li>
+            <li><a href="https://commissionpack.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">CommissionPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>AIA G702/G703 Retainage Calculator</h3>
+          <p>Exact-cent G702/G703 progress billing, Schedule of Values, change orders, and retainage step-down.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/aia-g702-retainage-calculator">aia-g702-retainage-calculator</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/aia-g702-retainage-calculator/">Interactive demo</a></li>
+            <li><a href="https://payapp.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">PayAppPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>IOLTA/IOLA Three-Way Trust Reconciliation</h3>
+          <p>Exact-cent IOLTA/IOLA three-way reconciliation with negative matter and stale check flags.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/iolta-three-way-trust-recon">iolta-three-way-trust-recon</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/iolta-three-way-trust-recon/">Interactive demo</a></li>
+            <li><a href="https://trustrecon.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">TrustReconPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>FLSA Tip Pool Splitter</h3>
+          <p>Penny-exact restaurant tip pool allocation, hybrid tip-outs, and straight-time tip-credit checks.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/flsa-tip-pool-splitter">flsa-tip-pool-splitter</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/flsa-tip-pool-splitter/">Interactive demo</a></li>
+            <li><a href="https://tippool.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">TipPoolPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>Freight BOL Three-Way Matcher</h3>
+          <p>Exact-cent freight invoice, BOL, and rate confirmation audit with owner-operator settlements.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/freight-bol-three-way-matcher">freight-bol-three-way-matcher</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/freight-bol-three-way-matcher/">Interactive demo</a></li>
+            <li><a href="https://freightaudit.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">FreightAuditPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>HOA Special Assessment Splitter</h3>
+          <p>Penny-exact HOA and condo special assessment allocation, reserves, and installment plans.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/hoa-special-assessment-splitter">hoa-special-assessment-splitter</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/hoa-special-assessment-splitter/">Interactive demo</a></li>
+            <li><a href="https://hoaspecial.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">HOASpecialPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>Construction Change Order Markup</h3>
+          <p>Integer-cent construction change order pricing, tiered markup caps, and schedule-of-values reconciliation.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/construction-change-order-markup">construction-change-order-markup</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/construction-change-order-markup/">Interactive demo</a></li>
+            <li><a href="https://changeorder.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">ChangeOrderPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>Self-storage lien and late-fee calculator</h3>
+          <p>Cent-exact self-storage delinquency ledger, late-fee limits, and lien timeline planning.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/self-storage-lien-late-fee-calc">self-storage-lien-late-fee-calc</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/self-storage-lien-late-fee-calc/">Interactive demo</a></li>
+            <li><a href="https://storagedelinq.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">StorageDelinqPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>AP invoice three-way match</h3>
+          <p>Cent-exact three-way matching for purchase orders, goods receipts, and vendor invoices.</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/ap-invoice-three-way-match-cli">ap-invoice-three-way-match-cli</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/ap-invoice-three-way-match-cli/">Interactive demo</a></li>
+            <li><a href="https://threewaymatch.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">ThreeWayMatchPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>NFPA 96 Hood Inspection Scheduler</h3>
+          <p>Calendar-exact NFPA 96 exhaust and UL 300 system inspection planning</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/nfpa96-hood-inspection-scheduler">nfpa96-hood-inspection-scheduler</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/nfpa96-hood-inspection-scheduler/">Interactive demo</a></li>
+            <li><a href="https://hoodcert.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">HoodCertPack</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>Dental Insurance EOB &amp; Copay Estimator</h3>
+          <p>Penny-exact dental EOB estimates with deductible, benefit cap and COB ledgers</p>
+          <ul>
+            <li><a href="https://github.com/shihaowei49-cloud/dental-insurance-eob-copay-estimator">dental-insurance-eob-copay-estimator</a> on GitHub</li>
+            <li><a href="https://shihaowei49-cloud.github.io/dental-insurance-eob-copay-estimator/">Interactive demo</a></li>
+            <li><a href="https://dentalplan.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=master_index&amp;utm_campaign=quality_wave_9">DentalPlanPack</a></li>
+          </ul>
         </article>
       </div>
     </section>
 
-    <section id="production-tools" aria-labelledby="production-tools-title">
+    <section id="commercial-hubs" aria-labelledby="hubs-title">
       <div class="section-heading">
-        <h2 id="production-tools-title">PDF prepress and subtitle QC</h2>
+        <h2 id="hubs-title">Commercial hubs</h2>
       </div>
       <div class="calculators">
-        <article>
-          <h3><a href="https://spineretrofit.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave13_20261127">SpineRetrofit</a></h3>
-          <p>Recalculate a KDP paperback spine after a page-count change. Compare the fold guides on a full-wrap PDF and preview a repair that preserves the front and back panel sizes.</p>
-        </article>
-        <article>
-          <h3><a href="https://subpackqc.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave13_20261127">SubPackQC</a></h3>
-          <p>Review SRT and WebVTT cues for reading speed, line length, and timing. Reconcile the files against a delivery manifest and export a QA handoff.</p>
-        </article>
-        <article>
-          <h3><a href="https://wedpaper.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave13_20261127">WedPaperPack</a></h3>
-          <p>Lay out a four-page wedding newspaper, check text fit and photo resolution, and export an 11 × 17 in duplex PDF with a fold test for the print shop.</p>
-        </article>
+        <div>
+          <h3>Construction / Real Estate</h3>
+          <ul>
+            <li><a href="https://closeout.shihaoeth.site/">CloseoutPack</a> — Turn work-order photos and open items into a closeout report.</li>
+            <li><a href="https://rentledger.shihaoeth.site/">RentLedgerPack</a> — Partial-Payment &amp; Late-Fee Tenant Rent Ledger PDF &amp; CSV Generator.</li>
+            <li><a href="https://payapp.shihaoeth.site/">PayAppPack</a> — Construction Subcontractor Progress Payment Application, Schedule of Values &amp; Retainage Draw PDF + XLSX Pack.</li>
+            <li><a href="https://camrecon.shihaoeth.site/">CAMReconPack</a> — Commercial Lease CAM / NNN Year-End Pro-Rata, Controllable-Cap &amp; Occupancy Proration Statement PDF + XLSX Pack.</li>
+            <li><a href="https://wh347.shihaoeth.site/">WH347Pack</a> — Prevailing-Wage Certified Payroll &amp; Fringe Benefit Cash-in-Lieu Worksheet PDF + XLSX Pack.</li>
+            <li><a href="https://hoaspecial.shihaoeth.site/">HOASpecialPack</a> — Condo &amp; HOA Special Assessment Unit Allocation, Installment Schedule &amp; Owner Notice PDF + XLSX Pack.</li>
+            <li><a href="https://changeorder.shihaoeth.site/">ChangeOrderPack</a> — Construction change order register with revision tracking, markup caps and signed contract totals.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Finance / Legal / AP</h3>
+          <ul>
+            <li><a href="https://budgethub.shihaoeth.site/">BudgetHub</a> — BudgetHub brings AI and developer cost estimates and compatibility checks into one workspace for comparison, saving and CSV export.</li>
+            <li><a href="https://airoipack.shihaoeth.site/">AIROIPack</a> — Compare automation ROI and payback across three scenarios and chart 12 months of cash flow.</li>
+            <li><a href="https://statementpack.shihaoeth.site/">StatementPack</a> — Cent-Reconciled Bank Statement PDF to QuickBooks CSV &amp; XLSX Converter.</li>
+            <li><a href="https://commissionpack.shihaoeth.site/">CommissionPack</a> — Sales Commission Tier, Split &amp; Clawback Rep Statement PDF + Payroll XLSX Pack.</li>
+            <li><a href="https://debtscenario.shihaoeth.site/">DebtScenarioPack</a> — Fixed-Point Debt Snowball vs Avalanche Amortization XLSX &amp; Side-by-Side PDF Pack.</li>
+            <li><a href="https://threewaymatch.shihaoeth.site/">ThreeWayMatchPack</a> — Accounts Payable 3-Way Match PO vs Partial Receiving vs Supplier Invoice Exception PDF + XLSX Pack.</li>
+            <li><a href="https://trustrecon.shihaoeth.site/">TrustReconPack</a> — Three-way trust account reconciliation with reviewer PDF, Excel workbook and audit CSV.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Logistics / Storage / Fleet</h3>
+          <ul>
+            <li><a href="https://freightaudit.shihaoeth.site/">FreightAuditPack</a> — Carrier Freight Invoice Overcharge, Fuel Surcharge, Accessorial &amp; Duplicate-Bill Dispute PDF + XLSX Pack.</li>
+            <li><a href="https://equiprent.shihaoeth.site/">EquipRentPack</a> — Equipment, Tool &amp; AV Rental Check-Out/Return Condition, Meter Overage &amp; Deposit Settlement PDF + XLSX Pack.</li>
+            <li><a href="https://driversettle.shihaoeth.site/">DriverSettlePack</a> — Weekly trucking settlements with owner-operator pay, fuel-card deductions, escrow and IFTA mileage.</li>
+            <li><a href="https://storagedelinq.shihaoeth.site/">StorageDelinqPack</a> — Self-storage delinquency review with past-due unit balances, notice delivery evidence and supervisor holds.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Hospitality / Food / Events</h3>
+          <ul>
+            <li><a href="https://nutritionlabel.shihaoeth.site/">NutritionLabelPack</a> — Build U.S. Nutrition Facts panels with UPC-A barcodes and export vector PDF or SVG for print review.</li>
+            <li><a href="https://wedpaper.shihaoeth.site/">WedPaperPack</a> — Build a four-page wedding newspaper and export an 11 × 17 in duplex PDF with a fold test.</li>
+            <li><a href="https://beopack.shihaoeth.site/">BEOPack</a> — Banquet Event Order Client + Kitchen + Revision Diff PDF Generator.</li>
+            <li><a href="https://commissary.shihaoeth.site/">CommissaryPack</a> — Food truck commissary visit, wastewater and operating-day logs for monthly inspection packets.</li>
+            <li><a href="https://tippool.shihaoeth.site/">TipPoolPack</a> — Restaurant tip pool reconciliation with manager sign-off, staff slips, Excel workbook and payroll CSV.</li>
+            <li><a href="https://hoodcert.shihaoeth.site/">HoodCertPack</a> — Commercial kitchen hood cleaning records with technician attestation, sticker summaries, photo evidence and follow-up.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Publishing / Media / Creative</h3>
+          <ul>
+            <li id="motionpack"><a href="https://motionpack.shihaoeth.site/">MotionPack</a> — Draw an FPV or gimbal path on a photo, transfer reference camera motion, or generate a spoken product ad.</li>
+            <li><a href="https://samefont.shihaoeth.site/">SameFontPack</a> — Replace raster text in the browser and export PNG or WebP with a SHA-256 digest.</li>
+            <li><a href="https://spineretrofit.shihaoeth.site/">SpineRetrofit</a> — Recalculate a KDP paperback spine after a page-count change and preview a full-wrap PDF repair.</li>
+            <li><a href="https://subpackqc.shihaoeth.site/">SubPackQC</a> — Check SRT and WebVTT cue timing and readability, reconcile a delivery manifest, and export a QA handoff.</li>
+            <li><a href="https://ffespec.shihaoeth.site/">FFESpecPack</a> — Interior Design Room-by-Room FF&amp;E Client Approval PDF + Vendor Procurement XLSX Pack.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Healthcare / Marine / Retail</h3>
+          <ul>
+            <li><a href="https://linesheet.shihaoeth.site/">LineSheetPack</a> — Build buyer-specific line sheets and order forms from a catalog CSV.</li>
+            <li><a href="https://consignpack.shihaoeth.site/">ConsignPack</a> — Consignment Boutique &amp; Antique Booth POS Split, Return Rollover &amp; Per-Consignor Statement PDF + XLSX Pack.</li>
+            <li><a href="https://petboard.shihaoeth.site/">PetBoardPack</a> — Dog Boarding &amp; Kennel Intake, Vaccine Expiry Check &amp; Printable Kennel Run Card PDF + Schedule XLSX Pack.</li>
+            <li><a href="https://dentalplan.shihaoeth.site/">DentalPlanPack</a> — Dental treatment estimates with verified PPO fees, remaining benefits and phased visits.</li>
+            <li><a href="https://boathaul.shihaoeth.site/">BoatHaulPack</a> — Boat haul-out and seasonal storage work orders with measured LOA rates, relaunch scheduling and deposit tracking.</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section id="operations-tools" aria-labelledby="operations-tools-title">
+    <section id="free-tools" aria-labelledby="tools-title">
       <div class="section-heading">
-        <h2 id="operations-tools-title">Catering, bookkeeping, and rent</h2>
+        <h2 id="tools-title">Free tools</h2>
       </div>
-      <div class="calculators">
-        <article>
-          <h3><a href="https://beopack.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave14_20261127">BEOPack</a></h3>
-          <p>Generate a priced banquet event order for the client, a price-free prep PDF for the kitchen, and a revision diff PDF for handoff.</p>
-          <p><a href="https://beopack.shihaoeth.site/pricing">Event Pass</a> · $15 once, or $12 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://statementpack.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave14_20261127">StatementPack</a></h3>
-          <p>Check bank statement PDF totals to the cent, then export a QuickBooks CSV or an XLSX workbook for review.</p>
-          <p><a href="https://statementpack.shihaoeth.site/pricing">50-Page Pass</a> · $19 once, or $15.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://rentledger.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave14_20261127">RentLedgerPack</a></h3>
-          <p>Track partial rent payments, late fees, and running balances. Export tenant ledgers as PDF or CSV.</p>
-          <p><a href="https://rentledger.shihaoeth.site/pricing">5-Unit Pass</a> · $9 once, or $7.20 with <code>LAUNCH20</code>.</p>
-        </article>
-      </div>
-    </section>
+      <h3>Microtools</h3>
+      <ul class="calculators">
+        <li><a href="https://apicache.shihaoeth.site/">API Cache</a> — Model prompt-cache savings, agent retry spend, and batch versus realtime routing.</li>
+        <li><a href="https://barcodelab.shihaoeth.site/">Barcode Lab</a> — Code 128B labels, GS1 check-digit validation, and U.S. FBA carton and pallet estimates.</li>
+        <li><a href="https://bleedcheck.shihaoeth.site/">BleedCheck</a> — Raster print preflight, U.S. Nutrition Facts proofs, and passport or ID photo print sheets.</li>
+        <li><a href="https://csvclean.shihaoeth.site/">CSV Clean</a> — Shopify CSV cleanup, variant import checks, and quote-based wholesale portal comparisons.</li>
+        <li><a href="https://exifstrip.shihaoeth.site/">Photo EXIF Fixer</a> — Prepare image copies, inspect JPEG capture metadata and build a property condition schedule.</li>
+        <li><a href="https://imgtext.shihaoeth.site/">Image Text Editor</a> — Replace image text, watermark photo batches, and stamp jobsite photos.</li>
+        <li><a href="https://invcalc.shihaoeth.site/">InvCalc</a> — Invoice balances, subcontractor labor billing and lien waiver records.</li>
+        <li><a href="https://jobquote.shihaoeth.site/">JobQuote</a> — Construction estimates, proposals and change orders with live USD totals and printable documents.</li>
+        <li><a href="https://llmtoken.shihaoeth.site/">LLM Token</a> — Estimate text, retrieval, and image token workloads and their costs.</li>
+        <li><a href="https://markupcalc.shihaoeth.site/">MarkupCalc</a> — Pricing calculators for product margins, handyman rates and cleaning quotes.</li>
+        <li><a href="https://moqcalc.shihaoeth.site/">MOQ Calc</a> — Wholesale pricing, shipment landed costs, and annual catalog-channel cost comparisons.</li>
+        <li><a href="https://packslip.shihaoeth.site/">Pack Slip</a> — Packing slips, customs invoice drafts, and warehouse cycle count sheets.</li>
+        <li><a href="https://pdfmerge.shihaoeth.site/">Photo Sheet &amp; Print Pack Layout Builder</a> — US Letter photo sheets, shipment documentation and construction safety briefing records.</li>
+        <li><a href="https://punchlist.shihaoeth.site/">PunchList</a> — Construction punch tracking, completion walkthroughs and rental inspections with spreadsheet or print export.</li>
+        <li><a href="https://redactbox.shihaoeth.site/">RedactBox</a> — Flatten screenshot redactions, mask sensitive invoice text and record document release reviews.</li>
+        <li><a href="https://skugen.shihaoeth.site/">SKU Gen</a> — Shopify SKU batches, whole-case wholesale orders, and apparel size prepacks.</li>
+        <li><a href="https://spinecalc.shihaoeth.site/">SpineCalc</a> — KDP paperback cover geometry, saddle-stitched lookbook estimates, and trade-show print and carton plans.</li>
+        <li><a href="https://srtqc.shihaoeth.site/">Subtitle QC</a> — Audit SRT and WebVTT reading speed and check vertical caption placement.</li>
+        <li><a href="https://subshift.shihaoeth.site/">SubShift</a> — Retime subtitles, convert transcript formats, and estimate spoken ad pacing.</li>
+        <li><a href="https://vramcalc.shihaoeth.site/">VRAM Calc</a> — Estimate inference and fine-tuning memory, GPU rental, and self-hosted serving economics.</li>
+      </ul>
 
-    <section id="planning-tools" aria-labelledby="planning-tools-title">
-      <div class="section-heading">
-        <h2 id="planning-tools-title">Commissions, design procurement, and debt payoff</h2>
-      </div>
-      <div class="calculators">
-        <article>
-          <h3><a href="https://commissionpack.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave15_20261127">CommissionPack</a></h3>
-          <p>Calculate sales commissions with tiers, rep splits, and clawbacks. Export rep statement PDFs and a payroll XLSX workbook.</p>
-          <p><a href="https://commissionpack.shihaoeth.site/pricing">Pay-Run Pass</a> · $24 once, or $19.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://ffespec.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave15_20261127">FFESpecPack</a></h3>
-          <p>Organize furniture, fixtures, and equipment by room. Export a client approval PDF and a vendor procurement XLSX workbook.</p>
-          <p><a href="https://ffespec.shihaoeth.site/pricing">Project Pass</a> · $19 once, or $15.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://debtscenario.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave15_20261127">DebtScenarioPack</a></h3>
-          <p>Compare snowball and avalanche payoff schedules with fixed-point amortization. Export the schedules as XLSX and the comparison as a side-by-side PDF.</p>
-          <p><a href="https://debtscenario.shihaoeth.site/pricing">Household Workbook Pass</a> · $12 once, or $9.60 with <code>LAUNCH20</code>.</p>
-        </article>
-      </div>
-    </section>
+      <h3>FinOps tools</h3>
+      <ul class="calculators">
+        <li><a href="https://voicebudget.shihaoeth.site/">VoiceBudget</a> — Estimate what GPT-Live 1.1 voice sessions cost when users speak, pause or return after going idle.</li>
+        <li><a href="https://runnerbudget.shihaoeth.site/">RunnerBudget</a> — Estimate monthly GitHub Actions costs for RHEL runners and compare package installation with custom images.</li>
+        <li><a href="https://setbudget.shihaoeth.site/">SetBudget</a> — Estimate Exa Websets V2 usage from compute, searches and optional enrichment before starting a run.</li>
+        <li><a href="https://worldbudget.shihaoeth.site/">WorldBudget</a> — Estimate the cost of Genie 4 interactive world sessions and compare how long a monthly budget can sustain them.</li>
+        <li><a href="https://sparkcheck.shihaoeth.site/">SparkCheck</a> — Look up CUDA workload compatibility across NVIDIA RTX Spark and DGX Spark configurations.</li>
+        <li><a href="https://loopvram.shihaoeth.site/">LoopVRAM</a> — Estimate Inkling 2 Mini weights, KV cache and runtime memory for a chosen context length and batch size.</li>
+        <li><a href="https://imagebudget.shihaoeth.site/">ImageBudget</a> — Compare MAI Image 2.7 Standard and Flash costs for drafts, final renders and rework.</li>
+        <li><a href="https://macroute.shihaoeth.site/">MacRouteCheck</a> — Check whether Smorza can handle your Mac audio routing goal and see the steps supported by your setup.</li>
+        <li><a href="https://maivoice.shihaoeth.site/">MAI Voice Budget</a> — Estimate MAI speech pipeline costs and forecast GitHub Copilot code review organization billing.</li>
+      </ul>
 
-    <section id="field-operations" aria-labelledby="field-operations-title">
-      <div class="section-heading">
-        <h2 id="field-operations-title">Construction draws, consignment, and kennel boarding</h2>
-      </div>
-      <div class="calculators">
-        <article>
-          <h3><a href="https://payapp.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave16_20261127">PayAppPack</a></h3>
-          <p>Prepare construction subcontractor progress payment applications with a schedule of values and retainage calculations. Export the draw as PDF and XLSX.</p>
-          <p><a href="https://payapp.shihaoeth.site/pricing">Project Draw Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://consignpack.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave16_20261127">ConsignPack</a></h3>
-          <p>Split point-of-sale proceeds for consignment boutiques and antique booths, carry returns into the next settlement, and export per-consignor statement PDFs and XLSX.</p>
-          <p><a href="https://consignpack.shihaoeth.site/pricing">Settlement Run Pass</a> · $24 once, or $19.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://petboard.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave16_20261127">PetBoardPack</a></h3>
-          <p>Record dog boarding intake and check vaccine expiry dates. Export printable kennel run card PDFs and a boarding schedule XLSX.</p>
-          <p><a href="https://petboard.shihaoeth.site/pricing">Boarding Roster Pass</a> · $19 once, or $15.20 with <code>LAUNCH20</code>.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="reconciliation-tools" aria-labelledby="reconciliation-tools-title">
-      <div class="section-heading">
-        <h2 id="reconciliation-tools-title">Freight audits, invoice matching, and CAM reconciliation</h2>
-      </div>
-      <div class="calculators">
-        <article>
-          <h3><a href="https://freightaudit.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave17_20261127">FreightAuditPack</a></h3>
-          <p>Check carrier invoices for overcharges, fuel surcharge discrepancies, accessorial fees, and duplicate bills. Export a dispute pack as PDF and XLSX.</p>
-          <p><a href="https://freightaudit.shihaoeth.site/pricing">Carrier Audit Batch Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://threewaymatch.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave17_20261127">ThreeWayMatchPack</a></h3>
-          <p>Match supplier invoices against purchase orders and partial receipts. Export accounts payable exceptions as PDF and XLSX.</p>
-          <p><a href="https://threewaymatch.shihaoeth.site/pricing">AP Match Batch Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://camrecon.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave17_20261127">CAMReconPack</a></h3>
-          <p>Reconcile year-end CAM and triple-net (NNN) charges using tenant pro rata shares, controllable expense caps, and occupancy proration. Export statements as PDF and XLSX.</p>
-          <p><a href="https://camrecon.shihaoeth.site/pricing">Property CAM Year-End Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="payroll-assessment-rental" aria-labelledby="payroll-assessment-rental-title">
-      <div class="section-heading">
-        <h2 id="payroll-assessment-rental-title">Certified payroll, HOA assessments, and equipment rentals</h2>
-      </div>
-      <div class="calculators">
-        <article>
-          <h3><a href="https://wh347.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave18_20261127">WH347Pack</a></h3>
-          <p>Prepare prevailing-wage certified payroll and reconcile fringe credits and cash-in-lieu payments in a PDF and XLSX worksheet pack.</p>
-          <p><a href="https://wh347.shihaoeth.site/pricing">Weekly Payroll Run Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://hoaspecial.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave18_20261127">HOASpecialPack</a></h3>
-          <p>Allocate a condo or HOA special assessment by unit, schedule installments, and prepare owner notices with PDF and XLSX exports.</p>
-          <p><a href="https://hoaspecial.shihaoeth.site/pricing">Board Assessment Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://equiprent.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave18_20261127">EquipRentPack</a></h3>
-          <p>Record check-out and return condition for equipment, tools, and AV gear. Calculate meter overages and deposit settlements, then export PDF and XLSX.</p>
-          <p><a href="https://equiprent.shihaoeth.site/pricing">Rental Contract &amp; Deposit Pass</a> · $24 once, or $19.20 with <code>LAUNCH20</code>.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="trust-hospitality-tools" aria-labelledby="trust-hospitality-tools-title">
-      <div class="section-heading">
-        <h2 id="trust-hospitality-tools-title">Trust reconciliation, commissary logs, and tip pools</h2>
-      </div>
-      <div class="calculators">
-        <article>
-          <h3><a href="https://trustrecon.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave19_20261127">TrustReconPack</a></h3>
-          <p>Reconcile the adjusted bank balance, cash book, and beneficiary ledgers. Export a reviewer sign-off PDF, exception report, Excel workbook, and audit CSV.</p>
-          <p><a href="https://trustrecon.shihaoeth.site/pricing">Month-End 3-Way Close Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://commissary.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave19_20261127">CommissaryPack</a></h3>
-          <p>Compare food truck operating days with commissary visits and wastewater records. Export a monthly inspection packet with PDFs, Excel, and CSV.</p>
-          <p><a href="https://commissary.shihaoeth.site/pricing">Monthly Inspection Log Pass</a> · $24 once, or $19.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://tippool.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave19_20261127">TipPoolPack</a></h3>
-          <p>Reconcile card and cash tips, allocate payouts by weighted hours or percentages, and export manager sign-off, staff slips, Excel, and payroll CSVs.</p>
-          <p><a href="https://tippool.shihaoeth.site/pricing">Pay-Period Tip Pool Pass</a> · $24 once, or $19.20 with <code>LAUNCH20</code>.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="settlement-change-dental-tools" aria-labelledby="settlement-change-dental-tools-title">
-      <div class="section-heading">
-        <h2 id="settlement-change-dental-tools-title">Driver settlements, change orders, and dental estimates</h2>
-      </div>
-      <div class="calculators">
-        <article>
-          <h3><a href="https://driversettle.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave20_20261127">DriverSettlePack</a></h3>
-          <p>Calculate weekly owner-operator pay, match fuel-card deductions, and roll up IFTA mileage. Export a driver statement, audit PDF, Excel workbook, and payout CSV.</p>
-          <p><a href="https://driversettle.shihaoeth.site/pricing">Weekly Fleet Settlement Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://changeorder.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave20_20261127">ChangeOrderPack</a></h3>
-          <p>Track construction change order revisions, check overhead and profit caps, and separate pending exposure from signed contract value. Export two PDFs, an Excel workbook, and a CSV.</p>
-          <p><a href="https://changeorder.shihaoeth.site/pricing">Project Change Register Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://dentalplan.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave20_20261127">DentalPlanPack</a></h3>
-          <p>Estimate patient costs for de-identified cases using verified PPO fees, remaining benefits, and phased visits. Export patient and coordinator PDFs, an Excel workbook, and a case fee CSV.</p>
-          <p><a href="https://dentalplan.shihaoeth.site/pricing">Case Estimate Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="boatyard-hood-storage-tools" aria-labelledby="boatyard-hood-storage-tools-title">
-      <div class="section-heading">
-        <h2 id="boatyard-hood-storage-tools-title">Boatyard work orders, hood cleaning records, and self-storage</h2>
-      </div>
-      <div class="calculators">
-        <article>
-          <h3><a href="https://boathaul.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave21_20261127">BoatHaulPack</a></h3>
-          <p>Quote haul-outs using measured vessel length, track seasonal storage, relaunch dates, and deposits, and export work order and yard schedule PDFs, an Excel workbook, and a billing CSV.</p>
-          <p><a href="https://boathaul.shihaoeth.site/pricing">Seasonal Yard Order Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://hoodcert.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave21_20261127">HoodCertPack</a></h3>
-          <p>Document commercial kitchen hood cleaning with technician-attested service records, sticker summaries, and an exception and photo index. Export PDFs, an Excel workbook, and a follow-up CSV.</p>
-          <p><a href="https://hoodcert.shihaoeth.site/pricing">Service Evidence Pass</a> · $29 once, or $23.20 with <code>LAUNCH20</code>.</p>
-        </article>
-        <article>
-          <h3><a href="https://storagedelinq.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave21_20261127">StorageDelinqPack</a></h3>
-          <p>Reconcile past-due unit balances, track notice delivery, and document supervisor holds. Export review PDFs, an Excel workbook, and an audit CSV.</p>
-          <p><a href="https://storagedelinq.shihaoeth.site/pricing">Facility Review Batch Pass</a> · $24 once, or $19.20 with <code>LAUNCH20</code>.</p>
-        </article>
-      </div>
+      <h3>Legacy apps</h3>
+      <ul class="calculators">
+        <li><a href="https://craft.shihaoeth.site/">Craft Studio</a> — AI video creation for product, creator and pet videos.</li>
+        <li><a href="https://october.shihaoeth.site/">October Booth</a> — Photo booth with party kits and guides for printing photo strips and setting up a Halloween booth at home.</li>
+      </ul>
     </section>
 
     <noscript><p class="notice">Enable JavaScript to recalculate. The tables show the worked results for the prefilled inputs.</p></noscript>
@@ -372,12 +385,11 @@
           <tr><th scope="row">RAG + vector store</th><td>$18.30 generation + $0.30 embeddings + $30 store + $6 reranking. Assumes zero egress charges.</td><td>$54.60</td></tr>
         </tbody>
       </table>
-      <h3><a href="https://budgethub.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">BudgetHub</a></h3>
-      <p>Build an AI budget from the live homepage calculator. Use the <a href="https://budgethub.shihaoeth.site/tools/ai-token-cost-calculator?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">token cost calculator</a> to split standard input, cached input, and output into separate charges.</p>
+      <p><a href="https://budgethub.shihaoeth.site/">BudgetHub</a> combines AI and cloud cost estimates for comparison and export.</p>
       <details class="references">
         <summary>Related infrastructure cost models</summary>
         <ul>
-          <li>Add retrieval overhead with the <a href="https://budgethub.shihaoeth.site/tools/rag-vector-db-tco-calculator">RAG and vector database worksheet</a>. Separate infrastructure estimates from cash savings in the <a href="https://airoipack.shihaoeth.site/tools/ai-workflow-roi-calculator">AI workflow ROI calculator</a>.</li>
+          <li>Plan infrastructure spending with the <a href="https://budgethub.shihaoeth.site/ai-infrastructure-budget-template">AI infrastructure budget template</a>. Separate infrastructure estimates from cash savings in the <a href="https://airoipack.shihaoeth.site/tools/ai-workflow-roi-calculator">AI workflow ROI calculator</a>.</li>
           <li>Isolate <a href="https://llmtoken.shihaoeth.site/">LLM tokens</a>, <a href="https://voicebudget.shihaoeth.site/">voice standby</a>, or <a href="https://apicache.shihaoeth.site/ai-agent-retry-and-prompt-cache-tco.html">agent retries and prompt caching</a>.</li>
           <li>Price <a href="https://worldbudget.shihaoeth.site/">interactive sessions</a>, <a href="https://imagebudget.shihaoeth.site/">image generation</a>, <a href="https://runnerbudget.shihaoeth.site/">CI runners</a>, and <a href="https://setbudget.shihaoeth.site/">search and enrichment</a> in their own billing units.</li>
         </ul>
@@ -412,17 +424,10 @@
           </tbody>
         </table>
       </div>
-      <h3><a href="https://closeout.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">CloseoutPack</a></h3>
-      <p>Turn before-and-after job photos into a handover PDF and an open-items CSV.</p>
-      <ul>
-        <li><a href="https://closeout.shihaoeth.site/tools/move-out-inspection-checklist?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Move-out inspection checklist</a> for documenting condition by room.</li>
-        <li><a href="https://closeout.shihaoeth.site/tools/construction-change-order-template?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Construction change order template</a> for recording scope, cost, and schedule changes.</li>
-        <li><a href="https://closeout.shihaoeth.site/tools/construction-submittal-log-template?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Construction submittal log</a> for tracking revisions and approvals.</li>
-        <li><a href="https://closeout.shihaoeth.site/tools/certificate-of-insurance-coi-closeout-checklist">Certificate of insurance checklist</a> for tracking coverage and evidence at handover.</li>
-      </ul>
+      <p><a href="https://closeout.shihaoeth.site/">CloseoutPack</a> turns work-order photos and open items into a closeout report.</p>
       <details class="references">
         <summary>Related field records and standards</summary>
-        <p>See the <a href="https://www.cipa.jp/e/std/std-sec.html">CIPA Exif specification</a> for the metadata fields. Keep <a href="https://closeout.shihaoeth.site/tools/subcontractor-daily-report-generator">daily reports</a>, <a href="https://jobquote.shihaoeth.site/">scope estimates</a>, and <a href="https://punchlist.shihaoeth.site/">punch lists</a> alongside the closeout packet.</p>
+        <p>See the <a href="https://www.cipa.jp/e/std/std-sec.html">CIPA Exif specification</a> for the metadata fields. Keep <a href="https://closeout.shihaoeth.site/job-photo-report">job photo reports</a>, <a href="https://jobquote.shihaoeth.site/">scope estimates</a>, and <a href="https://punchlist.shihaoeth.site/">punch lists</a> alongside the closeout packet.</p>
       </details>
     </section>
 
@@ -460,17 +465,10 @@
           <tr><th scope="row">Shopify CSV</th><td>Use a fresh store export as the UTF-8 schema template. Check product handle and option combinations, then retain SKUs and barcodes as text.</td><td>Two rows with the same handle and complete option tuple flag a duplicate. Preserve the UPC's initial zero.</td></tr>
         </tbody>
       </table>
-      <h3><a href="https://linesheet.shihaoeth.site/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">LineSheetPack</a></h3>
-      <p>Generate separate wholesale line sheets and order forms for buyer groups from a single catalog.</p>
-      <ul>
-        <li><a href="https://linesheet.shihaoeth.site/tools/wholesale-packing-slip-template?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Wholesale packing slip</a> for reconciling shipped quantities against a purchase order.</li>
-        <li><a href="https://linesheet.shihaoeth.site/tools/product-spec-sheet-template?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Product spec sheet</a> for handing off dimensions, materials, and variant details.</li>
-        <li><a href="https://linesheet.shihaoeth.site/tools/wholesale-size-run-order-form?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=wave11_20261126">Wholesale size-run order form</a> for collecting quantities by size.</li>
-        <li><a href="https://linesheet.shihaoeth.site/tools/fashion-lookbook-vs-line-sheet-builder">Fashion lookbook and line sheet builder</a> for preparing a visual assortment and a buyer-facing SKU list.</li>
-      </ul>
+      <p><a href="https://linesheet.shihaoeth.site/">LineSheetPack</a> builds buyer-specific line sheets and order forms from a catalog CSV.</p>
       <details class="references">
         <summary>Related catalog checks and standards</summary>
-        <p>Prepare a <a href="https://linesheet.shihaoeth.site/tools/wholesale-order-form-generator">buyer order form</a>, check <a href="https://moqcalc.shihaoeth.site/">case sizing</a>, scan for <a href="https://csvclean.shihaoeth.site/shopify-product-csv-variant-validator.html">duplicate variants</a>, and validate <a href="https://barcodelab.shihaoeth.site/gs1-gtin-check-digit-and-upc-ean-validator.html">GTIN check digits in batches</a>. See the <a href="https://ref.gs1.org/standards/genspecs/">GS1 General Specifications</a> and <a href="https://help.shopify.com/en/manual/products/import-export/using-csv">Shopify product CSV documentation</a>.</p>
+        <p>Prepare a <a href="https://linesheet.shihaoeth.site/wholesale-line-sheet-maker">wholesale line sheet</a>, check <a href="https://moqcalc.shihaoeth.site/">case sizing</a>, scan for <a href="https://csvclean.shihaoeth.site/shopify-product-csv-variant-validator.html">duplicate variants</a>, and validate <a href="https://barcodelab.shihaoeth.site/gs1-gtin-check-digit-and-upc-ean-validator.html">GTIN check digits in batches</a>. See the <a href="https://ref.gs1.org/standards/genspecs/">GS1 General Specifications</a> and <a href="https://help.shopify.com/en/manual/products/import-export/using-csv">Shopify product CSV documentation</a>.</p>
       </details>
     </section>
   </main>
@@ -481,5 +479,978 @@
       <p><a href="https://github.com/shihaowei49-cloud/b2b-ops-finops-benchmarks/blob/main/LICENSE">BSD Zero Clause License</a></p>
     </div>
   </footer>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "url": "https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/",
+      "name": "B2B Operations \u0026 FinOps Benchmarks",
+      "description": "Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 34 commercial B2B hubs, and 31 free tools.",
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Open-source libraries, commercial hubs, and free tools",
+        "numberOfItems": 82,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "FDA 21 CFR 101.9 nutrition rounding",
+              "identifier": "fda-21cfr101-nutrition-rounding",
+              "description": "FDA Nutrition Facts amount rounding and percent Daily Value reference",
+              "url": "https://github.com/shihaowei49-cloud/fda-21cfr101-nutrition-rounding",
+              "codeRepository": "https://github.com/shihaowei49-cloud/fda-21cfr101-nutrition-rounding",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/fda-21cfr101-nutrition-rounding/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Shopify line-sheet CSV linter",
+              "identifier": "shopify-linesheet-csv-linter",
+              "description": "Preflight Shopify product CSVs for wholesale SKUs, variants, and integer-cent prices",
+              "url": "https://github.com/shihaowei49-cloud/shopify-linesheet-csv-linter",
+              "codeRepository": "https://github.com/shihaowei49-cloud/shopify-linesheet-csv-linter",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/shopify-linesheet-csv-linter/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "WH-347 Davis-Bacon fringe calculator",
+              "identifier": "wh347-davis-bacon-fringe-calc",
+              "description": "Davis-Bacon workweek overtime, fringe credit, and cash-in-lieu payroll arithmetic",
+              "url": "https://github.com/shihaowei49-cloud/wh347-davis-bacon-fringe-calc",
+              "codeRepository": "https://github.com/shihaowei49-cloud/wh347-davis-bacon-fringe-calc",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/wh347-davis-bacon-fringe-calc/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Book spine and cover calculator",
+              "identifier": "kdp-book-spine-width-calc",
+              "description": "Exact spine, cover wrap, bleed and barcode geometry for KDP and IngramSpark.",
+              "url": "https://github.com/shihaowei49-cloud/kdp-book-spine-width-calc",
+              "codeRepository": "https://github.com/shihaowei49-cloud/kdp-book-spine-width-calc",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/kdp-book-spine-width-calc/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "SRT and WebVTT broadcast QC linter",
+              "identifier": "srt-vtt-broadcast-qc-linter",
+              "description": "Dependency-free SRT and WebVTT timing, readability and shot-gap quality checks.",
+              "url": "https://github.com/shihaowei49-cloud/srt-vtt-broadcast-qc-linter",
+              "codeRepository": "https://github.com/shihaowei49-cloud/srt-vtt-broadcast-qc-linter",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/srt-vtt-broadcast-qc-linter/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Commercial CAM pro-rata calculator",
+              "identifier": "commercial-cam-pro-rata-calc",
+              "description": "Exact-cent NNN commercial lease CAM reconciliation for occupancy gross-up, controllable caps and base-year stops.",
+              "url": "https://github.com/shihaowei49-cloud/commercial-cam-pro-rata-calc",
+              "codeRepository": "https://github.com/shihaowei49-cloud/commercial-cam-pro-rata-calc",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/commercial-cam-pro-rata-calc/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Sales tiered commission calculator",
+              "identifier": "sales-tiered-commission-calc",
+              "description": "Exact-cent sales commission tiers, split credit, clawbacks and draw settlement.",
+              "url": "https://github.com/shihaowei49-cloud/sales-tiered-commission-calc",
+              "codeRepository": "https://github.com/shihaowei49-cloud/sales-tiered-commission-calc",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/sales-tiered-commission-calc/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "AIA G702/G703 Retainage Calculator",
+              "identifier": "aia-g702-retainage-calculator",
+              "description": "Exact-cent G702/G703 progress billing, Schedule of Values, change orders, and retainage step-down.",
+              "url": "https://github.com/shihaowei49-cloud/aia-g702-retainage-calculator",
+              "codeRepository": "https://github.com/shihaowei49-cloud/aia-g702-retainage-calculator",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/aia-g702-retainage-calculator/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "IOLTA/IOLA Three-Way Trust Reconciliation",
+              "identifier": "iolta-three-way-trust-recon",
+              "description": "Exact-cent IOLTA/IOLA three-way reconciliation with negative matter and stale check flags.",
+              "url": "https://github.com/shihaowei49-cloud/iolta-three-way-trust-recon",
+              "codeRepository": "https://github.com/shihaowei49-cloud/iolta-three-way-trust-recon",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/iolta-three-way-trust-recon/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "FLSA Tip Pool Splitter",
+              "identifier": "flsa-tip-pool-splitter",
+              "description": "Penny-exact restaurant tip pool allocation, hybrid tip-outs, and straight-time tip-credit checks.",
+              "url": "https://github.com/shihaowei49-cloud/flsa-tip-pool-splitter",
+              "codeRepository": "https://github.com/shihaowei49-cloud/flsa-tip-pool-splitter",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/flsa-tip-pool-splitter/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Freight BOL Three-Way Matcher",
+              "identifier": "freight-bol-three-way-matcher",
+              "description": "Exact-cent freight invoice, BOL, and rate confirmation audit with owner-operator settlements.",
+              "url": "https://github.com/shihaowei49-cloud/freight-bol-three-way-matcher",
+              "codeRepository": "https://github.com/shihaowei49-cloud/freight-bol-three-way-matcher",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/freight-bol-three-way-matcher/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "HOA Special Assessment Splitter",
+              "identifier": "hoa-special-assessment-splitter",
+              "description": "Penny-exact HOA and condo special assessment allocation, reserves, and installment plans.",
+              "url": "https://github.com/shihaowei49-cloud/hoa-special-assessment-splitter",
+              "codeRepository": "https://github.com/shihaowei49-cloud/hoa-special-assessment-splitter",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/hoa-special-assessment-splitter/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Construction Change Order Markup",
+              "identifier": "construction-change-order-markup",
+              "description": "Integer-cent construction change order pricing, tiered markup caps, and schedule-of-values reconciliation.",
+              "url": "https://github.com/shihaowei49-cloud/construction-change-order-markup",
+              "codeRepository": "https://github.com/shihaowei49-cloud/construction-change-order-markup",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/construction-change-order-markup/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Self-storage lien and late-fee calculator",
+              "identifier": "self-storage-lien-late-fee-calc",
+              "description": "Cent-exact self-storage delinquency ledger, late-fee limits, and lien timeline planning.",
+              "url": "https://github.com/shihaowei49-cloud/self-storage-lien-late-fee-calc",
+              "codeRepository": "https://github.com/shihaowei49-cloud/self-storage-lien-late-fee-calc",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/self-storage-lien-late-fee-calc/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "AP invoice three-way match",
+              "identifier": "ap-invoice-three-way-match-cli",
+              "description": "Cent-exact three-way matching for purchase orders, goods receipts, and vendor invoices.",
+              "url": "https://github.com/shihaowei49-cloud/ap-invoice-three-way-match-cli",
+              "codeRepository": "https://github.com/shihaowei49-cloud/ap-invoice-three-way-match-cli",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/ap-invoice-three-way-match-cli/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "NFPA 96 Hood Inspection Scheduler",
+              "identifier": "nfpa96-hood-inspection-scheduler",
+              "description": "Calendar-exact NFPA 96 exhaust and UL 300 system inspection planning",
+              "url": "https://github.com/shihaowei49-cloud/nfpa96-hood-inspection-scheduler",
+              "codeRepository": "https://github.com/shihaowei49-cloud/nfpa96-hood-inspection-scheduler",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/nfpa96-hood-inspection-scheduler/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 17,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Dental Insurance EOB \u0026 Copay Estimator",
+              "identifier": "dental-insurance-eob-copay-estimator",
+              "description": "Penny-exact dental EOB estimates with deductible, benefit cap and COB ledgers",
+              "url": "https://github.com/shihaowei49-cloud/dental-insurance-eob-copay-estimator",
+              "codeRepository": "https://github.com/shihaowei49-cloud/dental-insurance-eob-copay-estimator",
+              "programmingLanguage": "JavaScript",
+              "license": "https://spdx.org/licenses/MIT.html",
+              "subjectOf": {
+                "@type": "WebPage",
+                "url": "https://shihaowei49-cloud.github.io/dental-insurance-eob-copay-estimator/"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 18,
+            "item": {
+              "@type": "WebSite",
+              "name": "CloseoutPack",
+              "url": "https://closeout.shihaoeth.site/",
+              "description": "Turn work-order photos and open items into a closeout report."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 19,
+            "item": {
+              "@type": "WebSite",
+              "name": "RentLedgerPack",
+              "url": "https://rentledger.shihaoeth.site/",
+              "description": "Partial-Payment \u0026 Late-Fee Tenant Rent Ledger PDF \u0026 CSV Generator."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 20,
+            "item": {
+              "@type": "WebSite",
+              "name": "PayAppPack",
+              "url": "https://payapp.shihaoeth.site/",
+              "description": "Construction Subcontractor Progress Payment Application, Schedule of Values \u0026 Retainage Draw PDF + XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 21,
+            "item": {
+              "@type": "WebSite",
+              "name": "CAMReconPack",
+              "url": "https://camrecon.shihaoeth.site/",
+              "description": "Commercial Lease CAM / NNN Year-End Pro-Rata, Controllable-Cap \u0026 Occupancy Proration Statement PDF + XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 22,
+            "item": {
+              "@type": "WebSite",
+              "name": "WH347Pack",
+              "url": "https://wh347.shihaoeth.site/",
+              "description": "Prevailing-Wage Certified Payroll \u0026 Fringe Benefit Cash-in-Lieu Worksheet PDF + XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 23,
+            "item": {
+              "@type": "WebSite",
+              "name": "HOASpecialPack",
+              "url": "https://hoaspecial.shihaoeth.site/",
+              "description": "Condo \u0026 HOA Special Assessment Unit Allocation, Installment Schedule \u0026 Owner Notice PDF + XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 24,
+            "item": {
+              "@type": "WebSite",
+              "name": "ChangeOrderPack",
+              "url": "https://changeorder.shihaoeth.site/",
+              "description": "Construction change order register with revision tracking, markup caps and signed contract totals."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 25,
+            "item": {
+              "@type": "WebSite",
+              "name": "BudgetHub",
+              "url": "https://budgethub.shihaoeth.site/",
+              "description": "BudgetHub brings AI and developer cost estimates and compatibility checks into one workspace for comparison, saving and CSV export."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 26,
+            "item": {
+              "@type": "WebSite",
+              "name": "AIROIPack",
+              "url": "https://airoipack.shihaoeth.site/",
+              "description": "Compare automation ROI and payback across three scenarios and chart 12 months of cash flow."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 27,
+            "item": {
+              "@type": "WebSite",
+              "name": "StatementPack",
+              "url": "https://statementpack.shihaoeth.site/",
+              "description": "Cent-Reconciled Bank Statement PDF to QuickBooks CSV \u0026 XLSX Converter."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 28,
+            "item": {
+              "@type": "WebSite",
+              "name": "CommissionPack",
+              "url": "https://commissionpack.shihaoeth.site/",
+              "description": "Sales Commission Tier, Split \u0026 Clawback Rep Statement PDF + Payroll XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 29,
+            "item": {
+              "@type": "WebSite",
+              "name": "DebtScenarioPack",
+              "url": "https://debtscenario.shihaoeth.site/",
+              "description": "Fixed-Point Debt Snowball vs Avalanche Amortization XLSX \u0026 Side-by-Side PDF Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 30,
+            "item": {
+              "@type": "WebSite",
+              "name": "ThreeWayMatchPack",
+              "url": "https://threewaymatch.shihaoeth.site/",
+              "description": "Accounts Payable 3-Way Match PO vs Partial Receiving vs Supplier Invoice Exception PDF + XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 31,
+            "item": {
+              "@type": "WebSite",
+              "name": "TrustReconPack",
+              "url": "https://trustrecon.shihaoeth.site/",
+              "description": "Three-way trust account reconciliation with reviewer PDF, Excel workbook and audit CSV."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 32,
+            "item": {
+              "@type": "WebSite",
+              "name": "FreightAuditPack",
+              "url": "https://freightaudit.shihaoeth.site/",
+              "description": "Carrier Freight Invoice Overcharge, Fuel Surcharge, Accessorial \u0026 Duplicate-Bill Dispute PDF + XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 33,
+            "item": {
+              "@type": "WebSite",
+              "name": "EquipRentPack",
+              "url": "https://equiprent.shihaoeth.site/",
+              "description": "Equipment, Tool \u0026 AV Rental Check-Out/Return Condition, Meter Overage \u0026 Deposit Settlement PDF + XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 34,
+            "item": {
+              "@type": "WebSite",
+              "name": "DriverSettlePack",
+              "url": "https://driversettle.shihaoeth.site/",
+              "description": "Weekly trucking settlements with owner-operator pay, fuel-card deductions, escrow and IFTA mileage."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 35,
+            "item": {
+              "@type": "WebSite",
+              "name": "StorageDelinqPack",
+              "url": "https://storagedelinq.shihaoeth.site/",
+              "description": "Self-storage delinquency review with past-due unit balances, notice delivery evidence and supervisor holds."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 36,
+            "item": {
+              "@type": "WebSite",
+              "name": "NutritionLabelPack",
+              "url": "https://nutritionlabel.shihaoeth.site/",
+              "description": "Build U.S. Nutrition Facts panels with UPC-A barcodes and export vector PDF or SVG for print review."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 37,
+            "item": {
+              "@type": "WebSite",
+              "name": "WedPaperPack",
+              "url": "https://wedpaper.shihaoeth.site/",
+              "description": "Build a four-page wedding newspaper and export an 11 × 17 in duplex PDF with a fold test."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 38,
+            "item": {
+              "@type": "WebSite",
+              "name": "BEOPack",
+              "url": "https://beopack.shihaoeth.site/",
+              "description": "Banquet Event Order Client + Kitchen + Revision Diff PDF Generator."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 39,
+            "item": {
+              "@type": "WebSite",
+              "name": "CommissaryPack",
+              "url": "https://commissary.shihaoeth.site/",
+              "description": "Food truck commissary visit, wastewater and operating-day logs for monthly inspection packets."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 40,
+            "item": {
+              "@type": "WebSite",
+              "name": "TipPoolPack",
+              "url": "https://tippool.shihaoeth.site/",
+              "description": "Restaurant tip pool reconciliation with manager sign-off, staff slips, Excel workbook and payroll CSV."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 41,
+            "item": {
+              "@type": "WebSite",
+              "name": "HoodCertPack",
+              "url": "https://hoodcert.shihaoeth.site/",
+              "description": "Commercial kitchen hood cleaning records with technician attestation, sticker summaries, photo evidence and follow-up."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 42,
+            "item": {
+              "@type": "WebSite",
+              "name": "MotionPack",
+              "url": "https://motionpack.shihaoeth.site/",
+              "description": "Draw an FPV or gimbal path on a photo, transfer reference camera motion, or generate a spoken product ad."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 43,
+            "item": {
+              "@type": "WebSite",
+              "name": "SameFontPack",
+              "url": "https://samefont.shihaoeth.site/",
+              "description": "Replace raster text in the browser and export PNG or WebP with a SHA-256 digest."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 44,
+            "item": {
+              "@type": "WebSite",
+              "name": "SpineRetrofit",
+              "url": "https://spineretrofit.shihaoeth.site/",
+              "description": "Recalculate a KDP paperback spine after a page-count change and preview a full-wrap PDF repair."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 45,
+            "item": {
+              "@type": "WebSite",
+              "name": "SubPackQC",
+              "url": "https://subpackqc.shihaoeth.site/",
+              "description": "Check SRT and WebVTT cue timing and readability, reconcile a delivery manifest, and export a QA handoff."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 46,
+            "item": {
+              "@type": "WebSite",
+              "name": "FFESpecPack",
+              "url": "https://ffespec.shihaoeth.site/",
+              "description": "Interior Design Room-by-Room FF\u0026E Client Approval PDF + Vendor Procurement XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 47,
+            "item": {
+              "@type": "WebSite",
+              "name": "LineSheetPack",
+              "url": "https://linesheet.shihaoeth.site/",
+              "description": "Build buyer-specific line sheets and order forms from a catalog CSV."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 48,
+            "item": {
+              "@type": "WebSite",
+              "name": "ConsignPack",
+              "url": "https://consignpack.shihaoeth.site/",
+              "description": "Consignment Boutique \u0026 Antique Booth POS Split, Return Rollover \u0026 Per-Consignor Statement PDF + XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 49,
+            "item": {
+              "@type": "WebSite",
+              "name": "PetBoardPack",
+              "url": "https://petboard.shihaoeth.site/",
+              "description": "Dog Boarding \u0026 Kennel Intake, Vaccine Expiry Check \u0026 Printable Kennel Run Card PDF + Schedule XLSX Pack."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 50,
+            "item": {
+              "@type": "WebSite",
+              "name": "DentalPlanPack",
+              "url": "https://dentalplan.shihaoeth.site/",
+              "description": "Dental treatment estimates with verified PPO fees, remaining benefits and phased visits."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 51,
+            "item": {
+              "@type": "WebSite",
+              "name": "BoatHaulPack",
+              "url": "https://boathaul.shihaoeth.site/",
+              "description": "Boat haul-out and seasonal storage work orders with measured LOA rates, relaunch scheduling and deposit tracking."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 52,
+            "item": {
+              "@type": "WebSite",
+              "name": "API Cache",
+              "url": "https://apicache.shihaoeth.site/",
+              "description": "Model prompt-cache savings, agent retry spend, and batch versus realtime routing."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 53,
+            "item": {
+              "@type": "WebSite",
+              "name": "Barcode Lab",
+              "url": "https://barcodelab.shihaoeth.site/",
+              "description": "Code 128B labels, GS1 check-digit validation, and U.S. FBA carton and pallet estimates."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 54,
+            "item": {
+              "@type": "WebSite",
+              "name": "BleedCheck",
+              "url": "https://bleedcheck.shihaoeth.site/",
+              "description": "Raster print preflight, U.S. Nutrition Facts proofs, and passport or ID photo print sheets."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 55,
+            "item": {
+              "@type": "WebSite",
+              "name": "CSV Clean",
+              "url": "https://csvclean.shihaoeth.site/",
+              "description": "Shopify CSV cleanup, variant import checks, and quote-based wholesale portal comparisons."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 56,
+            "item": {
+              "@type": "WebSite",
+              "name": "Photo EXIF Fixer",
+              "url": "https://exifstrip.shihaoeth.site/",
+              "description": "Prepare image copies, inspect JPEG capture metadata and build a property condition schedule."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 57,
+            "item": {
+              "@type": "WebSite",
+              "name": "Image Text Editor",
+              "url": "https://imgtext.shihaoeth.site/",
+              "description": "Replace image text, watermark photo batches, and stamp jobsite photos."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 58,
+            "item": {
+              "@type": "WebSite",
+              "name": "InvCalc",
+              "url": "https://invcalc.shihaoeth.site/",
+              "description": "Invoice balances, subcontractor labor billing and lien waiver records."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 59,
+            "item": {
+              "@type": "WebSite",
+              "name": "JobQuote",
+              "url": "https://jobquote.shihaoeth.site/",
+              "description": "Construction estimates, proposals and change orders with live USD totals and printable documents."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 60,
+            "item": {
+              "@type": "WebSite",
+              "name": "LLM Token",
+              "url": "https://llmtoken.shihaoeth.site/",
+              "description": "Estimate text, retrieval, and image token workloads and their costs."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 61,
+            "item": {
+              "@type": "WebSite",
+              "name": "MarkupCalc",
+              "url": "https://markupcalc.shihaoeth.site/",
+              "description": "Pricing calculators for product margins, handyman rates and cleaning quotes."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 62,
+            "item": {
+              "@type": "WebSite",
+              "name": "MOQ Calc",
+              "url": "https://moqcalc.shihaoeth.site/",
+              "description": "Wholesale pricing, shipment landed costs, and annual catalog-channel cost comparisons."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 63,
+            "item": {
+              "@type": "WebSite",
+              "name": "Pack Slip",
+              "url": "https://packslip.shihaoeth.site/",
+              "description": "Packing slips, customs invoice drafts, and warehouse cycle count sheets."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 64,
+            "item": {
+              "@type": "WebSite",
+              "name": "Photo Sheet \u0026 Print Pack Layout Builder",
+              "url": "https://pdfmerge.shihaoeth.site/",
+              "description": "US Letter photo sheets, shipment documentation and construction safety briefing records."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 65,
+            "item": {
+              "@type": "WebSite",
+              "name": "PunchList",
+              "url": "https://punchlist.shihaoeth.site/",
+              "description": "Construction punch tracking, completion walkthroughs and rental inspections with spreadsheet or print export."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 66,
+            "item": {
+              "@type": "WebSite",
+              "name": "RedactBox",
+              "url": "https://redactbox.shihaoeth.site/",
+              "description": "Flatten screenshot redactions, mask sensitive invoice text and record document release reviews."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 67,
+            "item": {
+              "@type": "WebSite",
+              "name": "SKU Gen",
+              "url": "https://skugen.shihaoeth.site/",
+              "description": "Shopify SKU batches, whole-case wholesale orders, and apparel size prepacks."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 68,
+            "item": {
+              "@type": "WebSite",
+              "name": "SpineCalc",
+              "url": "https://spinecalc.shihaoeth.site/",
+              "description": "KDP paperback cover geometry, saddle-stitched lookbook estimates, and trade-show print and carton plans."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 69,
+            "item": {
+              "@type": "WebSite",
+              "name": "Subtitle QC",
+              "url": "https://srtqc.shihaoeth.site/",
+              "description": "Audit SRT and WebVTT reading speed and check vertical caption placement."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 70,
+            "item": {
+              "@type": "WebSite",
+              "name": "SubShift",
+              "url": "https://subshift.shihaoeth.site/",
+              "description": "Retime subtitles, convert transcript formats, and estimate spoken ad pacing."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 71,
+            "item": {
+              "@type": "WebSite",
+              "name": "VRAM Calc",
+              "url": "https://vramcalc.shihaoeth.site/",
+              "description": "Estimate inference and fine-tuning memory, GPU rental, and self-hosted serving economics."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 72,
+            "item": {
+              "@type": "WebSite",
+              "name": "VoiceBudget",
+              "url": "https://voicebudget.shihaoeth.site/",
+              "description": "Estimate what GPT-Live 1.1 voice sessions cost when users speak, pause or return after going idle."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 73,
+            "item": {
+              "@type": "WebSite",
+              "name": "RunnerBudget",
+              "url": "https://runnerbudget.shihaoeth.site/",
+              "description": "Estimate monthly GitHub Actions costs for RHEL runners and compare package installation with custom images."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 74,
+            "item": {
+              "@type": "WebSite",
+              "name": "SetBudget",
+              "url": "https://setbudget.shihaoeth.site/",
+              "description": "Estimate Exa Websets V2 usage from compute, searches and optional enrichment before starting a run."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 75,
+            "item": {
+              "@type": "WebSite",
+              "name": "WorldBudget",
+              "url": "https://worldbudget.shihaoeth.site/",
+              "description": "Estimate the cost of Genie 4 interactive world sessions and compare how long a monthly budget can sustain them."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 76,
+            "item": {
+              "@type": "WebSite",
+              "name": "SparkCheck",
+              "url": "https://sparkcheck.shihaoeth.site/",
+              "description": "Look up CUDA workload compatibility across NVIDIA RTX Spark and DGX Spark configurations."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 77,
+            "item": {
+              "@type": "WebSite",
+              "name": "LoopVRAM",
+              "url": "https://loopvram.shihaoeth.site/",
+              "description": "Estimate Inkling 2 Mini weights, KV cache and runtime memory for a chosen context length and batch size."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 78,
+            "item": {
+              "@type": "WebSite",
+              "name": "ImageBudget",
+              "url": "https://imagebudget.shihaoeth.site/",
+              "description": "Compare MAI Image 2.7 Standard and Flash costs for drafts, final renders and rework."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 79,
+            "item": {
+              "@type": "WebSite",
+              "name": "MacRouteCheck",
+              "url": "https://macroute.shihaoeth.site/",
+              "description": "Check whether Smorza can handle your Mac audio routing goal and see the steps supported by your setup."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 80,
+            "item": {
+              "@type": "WebSite",
+              "name": "MAI Voice Budget",
+              "url": "https://maivoice.shihaoeth.site/",
+              "description": "Estimate MAI speech pipeline costs and forecast GitHub Copilot code review organization billing."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 81,
+            "item": {
+              "@type": "WebSite",
+              "name": "Craft Studio",
+              "url": "https://craft.shihaoeth.site/",
+              "description": "AI video creation for product, creator and pet videos."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 82,
+            "item": {
+              "@type": "WebSite",
+              "name": "October Booth",
+              "url": "https://october.shihaoeth.site/",
+              "description": "Photo booth with party kits and guides for printing photo strips and setting up a Halloween booth at home."
+            }
+          }
+        ]
+      }
+    }
+  </script>
 </body>
 </html>
