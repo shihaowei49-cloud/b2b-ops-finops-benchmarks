@@ -4,7 +4,7 @@
 
 Benchmark rates are illustrative USD inputs. The HTML reference includes the formulas, inputs and benchmark results. The browser calculators use the same fixtures and process inputs locally.
 
-The portfolio spans 59 sites, including 28 ShipAny commercial hubs.
+The portfolio spans 62 sites, including 31 ShipAny commercial hubs.
 
 ## Benchmarks
 
@@ -75,6 +75,12 @@ The portfolio spans 59 sites, including 28 ShipAny commercial hubs.
 - Reconciles the adjusted bank balance, cash book, and beneficiary ledgers with reviewer PDFs, Excel, and audit CSV. Month-End 3-Way Close Pass, $29 once or $23.20 with LAUNCH20. [TrustReconPack](https://trustrecon.shihaoeth.site/)
 - Compares food truck operating days with commissary visits and wastewater records and exports a monthly PDF, Excel, and CSV inspection packet. Monthly Inspection Log Pass, $24 once or $19.20 with LAUNCH20. [CommissaryPack](https://commissary.shihaoeth.site/)
 - Reconciles card and cash tips, allocates payouts, and exports staff slips, manager sign-off, Excel, and payroll CSVs. Pay-Period Tip Pool Pass, $24 once or $19.20 with LAUNCH20. [TipPoolPack](https://tippool.shihaoeth.site/)
+
+## Driver settlements, change orders, and dental estimates
+
+- Calculates weekly owner-operator pay, matches fuel-card deductions, and rolls up IFTA mileage. Exports a driver statement, audit PDF, Excel workbook, and payout CSV. Weekly Fleet Settlement Pass, $29 once or $23.20 with LAUNCH20. [DriverSettlePack](https://driversettle.shihaoeth.site/)
+- Tracks construction change order revisions, checks overhead and profit caps, and separates pending exposure from signed contract value. Exports two PDFs, an Excel workbook, and a CSV. Project Change Register Pass, $29 once or $23.20 with LAUNCH20. [ChangeOrderPack](https://changeorder.shihaoeth.site/)
+- Estimates patient costs for de-identified cases using verified PPO fees, remaining benefits, and phased visits. Exports patient and coordinator PDFs, an Excel workbook, and a case fee CSV. Case Estimate Pass, $29 once or $23.20 with LAUNCH20. [DentalPlanPack](https://dentalplan.shihaoeth.site/)
 
 ## MotionPack camera control
 
