@@ -43,6 +43,18 @@ Editable worked scenarios for AI infrastructure cost, field photo closeouts, and
 - Split point-of-sale proceeds for consignment boutiques and antique booths, carry returns into the next settlement, and export per-consignor statement PDFs and XLSX. The Settlement Run Pass costs $24 once or $19.20 with `LAUNCH20`. [ConsignPack](https://consignpack.shihaoeth.site/)
 - Record dog boarding intake, check vaccine expiry dates, and export printable kennel run card PDFs and a boarding schedule XLSX. The Boarding Roster Pass costs $19 once or $15.20 with `LAUNCH20`. [PetBoardPack](https://petboard.shihaoeth.site/)
 
+## Freight audits, invoice matching, and CAM reconciliation
+
+- Check carrier invoices for overcharges, fuel surcharge discrepancies, accessorial fees, and duplicate bills, then export a PDF and XLSX dispute pack. The Carrier Audit Batch Pass costs $29 once or $23.20 with `LAUNCH20`. [FreightAuditPack](https://freightaudit.shihaoeth.site/)
+- Match supplier invoices against purchase orders and partial receipts, then export accounts payable exceptions as PDF and XLSX. The AP Match Batch Pass costs $29 once or $23.20 with `LAUNCH20`. [ThreeWayMatchPack](https://threewaymatch.shihaoeth.site/)
+- Reconcile year-end CAM and triple-net (NNN) charges using tenant pro rata shares, controllable expense caps, and occupancy proration. Export statements as PDF and XLSX. The Property CAM Year-End Pass costs $29 once or $23.20 with `LAUNCH20`. [CAMReconPack](https://camrecon.shihaoeth.site/)
+
+## Certified payroll, HOA assessments, and equipment rentals
+
+- Prepare prevailing-wage certified payroll and reconcile fringe credits and cash-in-lieu payments in a PDF and XLSX worksheet pack. The Weekly Payroll Run Pass costs $29 once or $23.20 with `LAUNCH20`. [WH347Pack](https://wh347.shihaoeth.site/)
+- Allocate a condo or HOA special assessment by unit, schedule installments, and prepare owner notices with PDF and XLSX exports. The Board Assessment Pass costs $29 once or $23.20 with `LAUNCH20`. [HOASpecialPack](https://hoaspecial.shihaoeth.site/)
+- Record check-out and return condition for equipment, tools, and AV gear, then export meter overages and deposit settlements as PDF and XLSX. The Rental Contract & Deposit Pass costs $24 once or $19.20 with `LAUNCH20`. [EquipRentPack](https://equiprent.shihaoeth.site/)
+
 ## MotionPack camera control
 
 MotionPack uses Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro for photo-guided video, motion transfer, and staged product ads. [MotionPack](https://motionpack.shihaoeth.site/) · [Camera control studio](https://motionpack.shihaoeth.site/ai-camera-control-video-generator)
