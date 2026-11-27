@@ -4,7 +4,7 @@
 
 Benchmark rates are illustrative USD inputs. The HTML reference includes the formulas, inputs and benchmark results. The browser calculators use the same fixtures and process inputs locally.
 
-The portfolio spans 62 sites, including 31 ShipAny commercial hubs.
+The portfolio spans 65 sites, including 34 ShipAny commercial hubs.
 
 ## Benchmarks
 
@@ -81,6 +81,12 @@ The portfolio spans 62 sites, including 31 ShipAny commercial hubs.
 - Calculates weekly owner-operator pay, matches fuel-card deductions, and rolls up IFTA mileage. Exports a driver statement, audit PDF, Excel workbook, and payout CSV. Weekly Fleet Settlement Pass, $29 once or $23.20 with LAUNCH20. [DriverSettlePack](https://driversettle.shihaoeth.site/)
 - Tracks construction change order revisions, checks overhead and profit caps, and separates pending exposure from signed contract value. Exports two PDFs, an Excel workbook, and a CSV. Project Change Register Pass, $29 once or $23.20 with LAUNCH20. [ChangeOrderPack](https://changeorder.shihaoeth.site/)
 - Estimates patient costs for de-identified cases using verified PPO fees, remaining benefits, and phased visits. Exports patient and coordinator PDFs, an Excel workbook, and a case fee CSV. Case Estimate Pass, $29 once or $23.20 with LAUNCH20. [DentalPlanPack](https://dentalplan.shihaoeth.site/)
+
+## Boatyard work orders, hood cleaning records, and self-storage
+
+- Quotes haul-outs by measured vessel length and tracks seasonal storage, relaunch dates, and deposits. Exports work order and yard schedule PDFs, an Excel workbook, and a billing CSV. Seasonal Yard Order Pass, $29 once or $23.20 with LAUNCH20. [BoatHaulPack](https://boathaul.shihaoeth.site/)
+- Documents commercial kitchen hood cleaning with technician-attested service records, sticker summaries, and an exception and photo index. Exports PDFs, an Excel workbook, and a follow-up CSV. Service Evidence Pass, $29 once or $23.20 with LAUNCH20. [HoodCertPack](https://hoodcert.shihaoeth.site/)
+- Reconciles past-due unit balances, tracks notice delivery, and documents supervisor holds. Exports review PDFs, an Excel workbook, and an audit CSV. Facility Review Batch Pass, $24 once or $19.20 with LAUNCH20. [StorageDelinqPack](https://storagedelinq.shihaoeth.site/)
 
 ## MotionPack camera control
 
