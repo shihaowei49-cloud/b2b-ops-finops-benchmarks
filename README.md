@@ -4,7 +4,7 @@
 
 Editable worked scenarios for AI infrastructure cost, field photo closeouts, and apparel wholesale catalogs. Benchmark rates are illustrative USD inputs. The showcase calculators process inputs in the browser.
 
-The portfolio spans 59 sites, including 28 ShipAny commercial hubs.
+The portfolio spans 62 sites, including 31 ShipAny commercial hubs.
 
 ## Interactive tools
 
@@ -62,6 +62,12 @@ The portfolio spans 59 sites, including 28 ShipAny commercial hubs.
 - Reconcile the adjusted bank balance, cash book, and beneficiary ledgers. Export reviewer PDFs, an Excel workbook, and audit CSV. The Month-End 3-Way Close Pass costs $29 once or $23.20 with `LAUNCH20`. [TrustReconPack](https://trustrecon.shihaoeth.site/)
 - Compare food truck operating days with commissary visits and wastewater records. Export a monthly inspection packet with PDFs, Excel, and CSV. The Monthly Inspection Log Pass costs $24 once or $19.20 with `LAUNCH20`. [CommissaryPack](https://commissary.shihaoeth.site/)
 - Reconcile card and cash tips, allocate payouts by weighted hours or percentages, and export staff slips, manager sign-off, Excel, and payroll CSVs. The Pay-Period Tip Pool Pass costs $24 once or $19.20 with `LAUNCH20`. [TipPoolPack](https://tippool.shihaoeth.site/)
+
+## Driver settlements, change orders, and dental estimates
+
+- Calculate weekly owner-operator pay, match fuel-card deductions, and roll up IFTA mileage. Export a driver statement, audit PDF, Excel workbook, and payout CSV. The Weekly Fleet Settlement Pass costs $29 once or $23.20 with `LAUNCH20`. [DriverSettlePack](https://driversettle.shihaoeth.site/)
+- Track construction change order revisions, check overhead and profit caps, and separate pending exposure from signed contract value. Export two PDFs, an Excel workbook, and a CSV. The Project Change Register Pass costs $29 once or $23.20 with `LAUNCH20`. [ChangeOrderPack](https://changeorder.shihaoeth.site/)
+- Estimate patient costs for de-identified cases using verified PPO fees, remaining benefits, and phased visits. Export patient and coordinator PDFs, an Excel workbook, and a case fee CSV. The Case Estimate Pass costs $29 once or $23.20 with `LAUNCH20`. [DentalPlanPack](https://dentalplan.shihaoeth.site/)
 
 ## MotionPack camera control
 
