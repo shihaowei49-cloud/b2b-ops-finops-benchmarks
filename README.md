@@ -37,6 +37,12 @@ Editable worked scenarios for AI infrastructure cost, field photo closeouts, and
 - Organize furniture, fixtures, and equipment by room, then export a client approval PDF and a vendor procurement XLSX workbook. The Project Pass costs $19 once or $15.20 with `LAUNCH20`. [FFESpecPack](https://ffespec.shihaoeth.site/)
 - Compare debt snowball and avalanche strategies with fixed-point amortization, an XLSX workbook, and a side-by-side PDF. The Household Workbook Pass costs $12 once or $9.60 with `LAUNCH20`. [DebtScenarioPack](https://debtscenario.shihaoeth.site/)
 
+## Construction draws, consignment, and kennel boarding
+
+- Prepare construction subcontractor progress payment applications with a schedule of values and retainage, then export the draw as PDF and XLSX. The Project Draw Pass costs $29 once or $23.20 with `LAUNCH20`. [PayAppPack](https://payapp.shihaoeth.site/)
+- Split point-of-sale proceeds for consignment boutiques and antique booths, carry returns into the next settlement, and export per-consignor statement PDFs and XLSX. The Settlement Run Pass costs $24 once or $19.20 with `LAUNCH20`. [ConsignPack](https://consignpack.shihaoeth.site/)
+- Record dog boarding intake, check vaccine expiry dates, and export printable kennel run card PDFs and a boarding schedule XLSX. The Boarding Roster Pass costs $19 once or $15.20 with `LAUNCH20`. [PetBoardPack](https://petboard.shihaoeth.site/)
+
 ## MotionPack camera control
 
 MotionPack uses Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro for photo-guided video, motion transfer, and staged product ads. [MotionPack](https://motionpack.shihaoeth.site/) · [Camera control studio](https://motionpack.shihaoeth.site/ai-camera-control-video-generator)
