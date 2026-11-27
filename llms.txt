@@ -50,6 +50,12 @@ Benchmark rates are illustrative USD inputs. The HTML reference includes the for
 - Organizes furniture, fixtures, and equipment by room, with a client approval PDF and vendor procurement XLSX. Project Pass, $19 once or $15.20 with LAUNCH20. [FFESpecPack](https://ffespec.shihaoeth.site/)
 - Compares fixed-point debt snowball and avalanche amortization schedules in XLSX and a side-by-side PDF. Household Workbook Pass, $12 once or $9.60 with LAUNCH20. [DebtScenarioPack](https://debtscenario.shihaoeth.site/)
 
+## Construction draws, consignment, and kennel boarding
+
+- Prepares construction subcontractor progress payment applications with a schedule of values, retainage calculations, and PDF and XLSX draw exports. Project Draw Pass, $29 once or $23.20 with LAUNCH20. [PayAppPack](https://payapp.shihaoeth.site/)
+- Splits point-of-sale proceeds and carries returns into the next settlement for consignment boutiques and antique booths. Exports per-consignor statement PDFs and XLSX. Settlement Run Pass, $24 once or $19.20 with LAUNCH20. [ConsignPack](https://consignpack.shihaoeth.site/)
+- Records dog boarding intake and checks vaccine expiry dates. Exports printable kennel run card PDFs and a boarding schedule XLSX. Boarding Roster Pass, $19 once or $15.20 with LAUNCH20. [PetBoardPack](https://petboard.shihaoeth.site/)
+
 ## MotionPack camera control
 
 - [MotionPack](https://motionpack.shihaoeth.site/) generates photo-guided videos using Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro.
