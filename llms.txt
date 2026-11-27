@@ -4,6 +4,8 @@
 
 Benchmark rates are illustrative USD inputs. The HTML reference includes the formulas, inputs and benchmark results. The browser calculators use the same fixtures and process inputs locally.
 
+The portfolio spans 59 sites, including 28 ShipAny commercial hubs.
+
 ## Benchmarks
 
 - [AI infrastructure cost](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/#finops): $18.30/month for sample LLM tokens, $330 for voice sessions, $526.56 for agent retries, and $54.60 for generation plus RAG overhead.
@@ -67,6 +69,12 @@ Benchmark rates are illustrative USD inputs. The HTML reference includes the for
 - Prepares prevailing-wage certified payroll and reconciles fringe credits and cash-in-lieu payments with a PDF and XLSX worksheet pack. Weekly Payroll Run Pass, $29 once or $23.20 with LAUNCH20. [WH347Pack](https://wh347.shihaoeth.site/)
 - Allocates condo or HOA special assessments by unit and exports installment schedules and owner notices as PDF and XLSX. Board Assessment Pass, $29 once or $23.20 with LAUNCH20. [HOASpecialPack](https://hoaspecial.shihaoeth.site/)
 - Records equipment, tool, and AV gear condition at check-out and return and exports meter overages and deposit settlements as PDF and XLSX. Rental Contract & Deposit Pass, $24 once or $19.20 with LAUNCH20. [EquipRentPack](https://equiprent.shihaoeth.site/)
+
+## Trust reconciliation, commissary logs, and tip pools
+
+- Reconciles the adjusted bank balance, cash book, and beneficiary ledgers with reviewer PDFs, Excel, and audit CSV. Month-End 3-Way Close Pass, $29 once or $23.20 with LAUNCH20. [TrustReconPack](https://trustrecon.shihaoeth.site/)
+- Compares food truck operating days with commissary visits and wastewater records and exports a monthly PDF, Excel, and CSV inspection packet. Monthly Inspection Log Pass, $24 once or $19.20 with LAUNCH20. [CommissaryPack](https://commissary.shihaoeth.site/)
+- Reconciles card and cash tips, allocates payouts, and exports staff slips, manager sign-off, Excel, and payroll CSVs. Pay-Period Tip Pool Pass, $24 once or $19.20 with LAUNCH20. [TipPoolPack](https://tippool.shihaoeth.site/)
 
 ## MotionPack camera control
 
