@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- The canonical showcase links to the expanded hubs in its motionpack,
-       operator-tools, finops, closeout, and wholesale sections.
-       Hub URLs are crawled through links on the showcase and each hub's own sitemap. -->
+  <!-- The trust-hospitality-tools section features the Wave 19 hubs.
+       Their canonical URLs are published in each hub's sitemap.
+       https://trustrecon.shihaoeth.site/sitemap.xml
+       https://commissary.shihaoeth.site/sitemap.xml
+       https://tippool.shihaoeth.site/sitemap.xml -->
   <url>
     <loc>https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/</loc>
     <lastmod>2026-11-27</lastmod>
