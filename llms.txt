@@ -44,6 +44,12 @@ Benchmark rates are illustrative USD inputs. The HTML reference includes the for
 - Reconciles bank statement PDFs to the cent and exports QuickBooks CSV and XLSX. 50-Page Pass, $19 once or $15.20 with LAUNCH20. [StatementPack](https://statementpack.shihaoeth.site/)
 - Exports tenant rent ledger PDF and CSV statements with partial payments, late fees, and running balances. 5-Unit Pass, $9 once or $7.20 with LAUNCH20. [RentLedgerPack](https://rentledger.shihaoeth.site/)
 
+## Commissions, design procurement, and debt payoff
+
+- Calculates sales commission tiers, rep splits, and clawbacks, and exports rep statement PDFs and payroll XLSX. Pay-Run Pass, $24 once or $19.20 with LAUNCH20. [CommissionPack](https://commissionpack.shihaoeth.site/)
+- Organizes furniture, fixtures, and equipment by room, with a client approval PDF and vendor procurement XLSX. Project Pass, $19 once or $15.20 with LAUNCH20. [FFESpecPack](https://ffespec.shihaoeth.site/)
+- Compares fixed-point debt snowball and avalanche amortization schedules in XLSX and a side-by-side PDF. Household Workbook Pass, $12 once or $9.60 with LAUNCH20. [DebtScenarioPack](https://debtscenario.shihaoeth.site/)
+
 ## MotionPack camera control
 
 - [MotionPack](https://motionpack.shihaoeth.site/) generates photo-guided videos using Seedance 2.5 Pro, Seedance 2.0 Fast, and Seedream 5.0 Pro.
