@@ -2,7 +2,7 @@
 
 [Open the directory](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/) · [Plain-text index](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/llms.txt)
 
-Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 34 commercial B2B hubs, and 31 free tools. The worked benchmarks use illustrative USD rates, and the showcase calculators process inputs in the browser.
+Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 36 commercial B2B hubs, and 31 free tools. The worked benchmarks use illustrative USD rates, and the showcase calculators process inputs in the browser.
 
 ## Print preflight reference
 
@@ -92,6 +92,7 @@ Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demo
 - [CommissaryPack](https://commissary.runbirch.com/) — Food truck commissary visit, wastewater and operating-day logs for monthly inspection packets.
 - [TipPoolPack](https://tippool.runbirch.com/) — Restaurant tip pool reconciliation with manager sign-off, staff slips, Excel workbook and payroll CSV.
 - [HoodCertPack](https://hoodcert.runbirch.com/) — Commercial kitchen hood cleaning records with technician attestation, sticker summaries, photo evidence and follow-up.
+- [GreaseManifest](https://greasemanifest.runbirch.com/) — Reconcile grease trap pickup records with disposal tickets and prepare a route packet. [Florida grease trap manifest guide](https://greasemanifest.runbirch.com/guides/florida-grease-trap-manifest-30-day-rule)
 
 ### Publishing / Media / Creative
 
@@ -108,6 +109,7 @@ Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demo
 - [PetBoardPack](https://petboard.runbirch.com/) — Dog Boarding & Kennel Intake, Vaccine Expiry Check & Printable Kennel Run Card PDF + Schedule XLSX Pack.
 - [DentalPlanPack](https://dentalplan.aldersuite.com/) — Dental treatment estimates with verified PPO fees, remaining benefits and phased visits.
 - [BoatHaulPack](https://boathaul.cairndock.com/) — Boat haul-out and seasonal storage work orders with measured LOA rates, relaunch scheduling and deposit tracking.
+- [SteriLog](https://sterilog.aldersuite.com/) — Review dental autoclave loads, spore test results and missing lab reports. [Autoclave spore test log sheet guide](https://sterilog.aldersuite.com/guides/autoclave-spore-test-log-sheet-guide)
 
 ## Free tools
 
