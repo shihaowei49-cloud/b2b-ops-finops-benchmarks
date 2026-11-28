@@ -2,7 +2,7 @@
 
 [Open the directory](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/) · [Plain-text index](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/llms.txt)
 
-Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 37 commercial B2B hubs, and 31 free tools. The worked benchmarks use illustrative USD rates, and the showcase calculators process inputs in the browser.
+Browse 20 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 37 commercial B2B hubs, and 31 free tools. The worked benchmarks use illustrative USD rates, and the showcase calculators process inputs in the browser.
 
 ## Print preflight reference
 
@@ -46,6 +46,12 @@ Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demo
   [Interactive demo](https://shihaowei49-cloud.github.io/nfpa96-hood-inspection-scheduler/) · [HoodCertPack](https://hoodcert.runbirch.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [dental-insurance-eob-copay-estimator](https://github.com/shihaowei49-cloud/dental-insurance-eob-copay-estimator) — Penny-exact dental EOB estimates with deductible, benefit cap and COB ledgers
   [Interactive demo](https://shihaowei49-cloud.github.io/dental-insurance-eob-copay-estimator/) · [DentalPlanPack](https://dentalplan.aldersuite.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [grease-trap-manifest-reconciler](https://github.com/shihaowei49-cloud/grease-trap-manifest-reconciler) — Fixed-point tenth-gallon grease trap pickup/disposal reconciler and Florida 30-day manifest deadline tracker
+  [Interactive demo](https://shihaowei49-cloud.github.io/grease-trap-manifest-reconciler/) · [GreaseManifest](https://greasemanifest.runbirch.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [autoclave-spore-test-reconciler](https://github.com/shihaowei49-cloud/autoclave-spore-test-reconciler) — Multi-sterilizer weekly biological indicator (BI) spore-test compliance and recall-window reconciler (zero patient PHI)
+  [Interactive demo](https://shihaowei49-cloud.github.io/autoclave-spore-test-reconciler/) · [SteriLog](https://sterilog.aldersuite.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [forklift-preshift-inspection-reconciler](https://github.com/shihaowei49-cloud/forklift-preshift-inspection-reconciler) — OSHA 29 CFR 1910.178(q)(7) forklift shift-coverage reconciler and mandatory dated supervisor defect-closeout engine
+  [Interactive demo](https://shihaowei49-cloud.github.io/forklift-preshift-inspection-reconciler/) · [ForkliftCheck](https://forkliftcheck.cairndock.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 
 ## Studio portals
 

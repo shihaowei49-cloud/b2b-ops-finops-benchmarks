@@ -1,6 +1,6 @@
 # B2B Operations & FinOps Benchmarks
 
-> Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 37 commercial B2B hubs, and 31 free tools.
+> Browse 20 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 37 commercial B2B hubs, and 31 free tools.
 
 The worked benchmarks use illustrative USD rates. The showcase calculators process inputs in the browser.
 
@@ -29,6 +29,9 @@ The worked benchmarks use illustrative USD rates. The showcase calculators proce
 - [ap-invoice-three-way-match-cli](https://github.com/shihaowei49-cloud/ap-invoice-three-way-match-cli): Cent-exact three-way matching for purchase orders, goods receipts, and vendor invoices.
 - [nfpa96-hood-inspection-scheduler](https://github.com/shihaowei49-cloud/nfpa96-hood-inspection-scheduler): Calendar-exact NFPA 96 exhaust and UL 300 system inspection planning
 - [dental-insurance-eob-copay-estimator](https://github.com/shihaowei49-cloud/dental-insurance-eob-copay-estimator): Penny-exact dental EOB estimates with deductible, benefit cap and COB ledgers
+- [grease-trap-manifest-reconciler](https://github.com/shihaowei49-cloud/grease-trap-manifest-reconciler): Fixed-point tenth-gallon grease trap pickup/disposal reconciler and Florida 30-day manifest deadline tracker
+- [autoclave-spore-test-reconciler](https://github.com/shihaowei49-cloud/autoclave-spore-test-reconciler): Multi-sterilizer weekly biological indicator (BI) spore-test compliance and recall-window reconciler (zero patient PHI)
+- [forklift-preshift-inspection-reconciler](https://github.com/shihaowei49-cloud/forklift-preshift-inspection-reconciler): OSHA 29 CFR 1910.178(q)(7) forklift shift-coverage reconciler and mandatory dated supervisor defect-closeout engine
 
 ## Interactive GitHub Pages demos
 
@@ -49,6 +52,9 @@ The worked benchmarks use illustrative USD rates. The showcase calculators proce
 - [ap-invoice-three-way-match-cli demo](https://shihaowei49-cloud.github.io/ap-invoice-three-way-match-cli/)
 - [nfpa96-hood-inspection-scheduler demo](https://shihaowei49-cloud.github.io/nfpa96-hood-inspection-scheduler/)
 - [dental-insurance-eob-copay-estimator demo](https://shihaowei49-cloud.github.io/dental-insurance-eob-copay-estimator/)
+- [grease-trap-manifest-reconciler demo](https://shihaowei49-cloud.github.io/grease-trap-manifest-reconciler/)
+- [autoclave-spore-test-reconciler demo](https://shihaowei49-cloud.github.io/autoclave-spore-test-reconciler/)
+- [forklift-preshift-inspection-reconciler demo](https://shihaowei49-cloud.github.io/forklift-preshift-inspection-reconciler/)
 
 ## Paired commercial workflows
 
@@ -70,6 +76,9 @@ The worked benchmarks use illustrative USD rates. The showcase calculators proce
 - [ThreeWayMatchPack for ap-invoice-three-way-match-cli](https://threewaymatch.aldersuite.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [HoodCertPack for nfpa96-hood-inspection-scheduler](https://hoodcert.runbirch.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [DentalPlanPack for dental-insurance-eob-copay-estimator](https://dentalplan.aldersuite.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [GreaseManifest for grease-trap-manifest-reconciler](https://greasemanifest.runbirch.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [SteriLog for autoclave-spore-test-reconciler](https://sterilog.aldersuite.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [ForkliftCheck for forklift-preshift-inspection-reconciler](https://forkliftcheck.cairndock.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 
 ## Studio portals
 
