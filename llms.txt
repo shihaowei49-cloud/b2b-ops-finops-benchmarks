@@ -1,13 +1,14 @@
 # B2B Operations & FinOps Benchmarks
 
-> Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 36 commercial B2B hubs, and 31 free tools.
+> Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 37 commercial B2B hubs, and 31 free tools.
 
 The worked benchmarks use illustrative USD rates. The showcase calculators process inputs in the browser.
 
 ## Print preflight reference
 
-- [Print Preflight Benchmarks](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/print-preflight.html) — KDP paperback spine widths, 11 × 17 Tabloid duplex calibration, 300-DPI crop and bleed, and FDA 21 CFR 101.9 rounding.
-- [MIT-licensed JSON fixtures](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/print-preflight-fixtures.json) · [Actual-size specimen PDF](https://wedpaper.rowanapps.com/specimen/actual-size-print-sample.pdf)
+- [Print Preflight Benchmarks](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/print-preflight.html): KDP paperback spine widths, 11 × 17 Tabloid duplex calibration, 300-DPI crop and bleed, and FDA 21 CFR 101.9 rounding.
+- [MIT-licensed JSON fixtures](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/print-preflight-fixtures.json): Worked inputs and expected outputs for the print preflight benchmarks.
+- [Actual-size specimen PDF](https://wedpaper.rowanapps.com/specimen/actual-size-print-sample.pdf): Printable sample for checking actual-size output.
 
 ## Open-source libraries
 
@@ -72,11 +73,16 @@ The worked benchmarks use illustrative USD rates. The showcase calculators proce
 
 ## Studio portals
 
-- [RowanApps](https://rowanapps.com/) — Retail, publishing, and creative production. [Support](mailto:support@rowanapps.com)
-- [AnvilDeck](https://anvildeck.com/) — Construction, property operations, and equipment rental. [Support](mailto:support@anvildeck.com)
-- [AlderSuite](https://aldersuite.com/) — Finance, reconciliation, and practice administration. [Support](mailto:support@aldersuite.com)
-- [CairnDock](https://cairndock.com/) — Freight, fleet, storage, and marine operations. [Support](mailto:support@cairndock.com)
-- [RunBirch](https://runbirch.com/) — Hospitality, food service, and pet boarding. [Support](mailto:support@runbirch.com)
+- [RowanApps](https://rowanapps.com/): Retail, publishing, and creative production.
+- [RowanApps support](mailto:support@rowanapps.com)
+- [AnvilDeck](https://anvildeck.com/): Construction, property operations, and equipment rental.
+- [AnvilDeck support](mailto:support@anvildeck.com)
+- [AlderSuite](https://aldersuite.com/): Finance, reconciliation, and practice administration.
+- [AlderSuite support](mailto:support@aldersuite.com)
+- [CairnDock](https://cairndock.com/): Freight, fleet, storage, and marine operations.
+- [CairnDock support](mailto:support@cairndock.com)
+- [RunBirch](https://runbirch.com/): Hospitality, food service, and pet boarding.
+- [RunBirch support](mailto:support@runbirch.com)
 
 ## Commercial hubs — Construction / Real Estate
 
@@ -104,6 +110,8 @@ The worked benchmarks use illustrative USD rates. The showcase calculators proce
 - [EquipRentPack](https://equiprent.anvildeck.com/): Equipment, Tool & AV Rental Check-Out/Return Condition, Meter Overage & Deposit Settlement PDF + XLSX Pack.
 - [DriverSettlePack](https://driversettle.cairndock.com/): Weekly trucking settlements with owner-operator pay, fuel-card deductions, escrow and IFTA mileage.
 - [StorageDelinqPack](https://storagedelinq.cairndock.com/): Self-storage delinquency review with past-due unit balances, notice delivery evidence and supervisor holds.
+- [ForkliftCheck](https://forkliftcheck.cairndock.com/): Reconcile scheduled forklift shifts with pre-shift inspections, track defects through supervisor sign-off, and export two PDFs and five CSVs.
+- [Forklift pre-shift inspection guide](https://forkliftcheck.cairndock.com/guides/forklift-pre-shift-inspection-checklist-guide): Explains how to record pre-shift checks and follow up on defects.
 
 ## Commercial hubs — Hospitality / Food / Events
 
@@ -113,7 +121,8 @@ The worked benchmarks use illustrative USD rates. The showcase calculators proce
 - [CommissaryPack](https://commissary.runbirch.com/): Food truck commissary visit, wastewater and operating-day logs for monthly inspection packets.
 - [TipPoolPack](https://tippool.runbirch.com/): Restaurant tip pool reconciliation with manager sign-off, staff slips, Excel workbook and payroll CSV.
 - [HoodCertPack](https://hoodcert.runbirch.com/): Commercial kitchen hood cleaning records with technician attestation, sticker summaries, photo evidence and follow-up.
-- [GreaseManifest](https://greasemanifest.runbirch.com/): Reconcile grease trap pickup records with disposal tickets and prepare a route packet. [Florida grease trap manifest guide](https://greasemanifest.runbirch.com/guides/florida-grease-trap-manifest-30-day-rule)
+- [GreaseManifest](https://greasemanifest.runbirch.com/): Reconcile grease trap pickup records with disposal tickets and prepare a route packet.
+- [Florida grease trap manifest guide](https://greasemanifest.runbirch.com/guides/florida-grease-trap-manifest-30-day-rule): Explains Florida’s 30-day rule for grease trap manifests.
 
 ## Commercial hubs — Publishing / Media / Creative
 
@@ -130,7 +139,8 @@ The worked benchmarks use illustrative USD rates. The showcase calculators proce
 - [PetBoardPack](https://petboard.runbirch.com/): Dog Boarding & Kennel Intake, Vaccine Expiry Check & Printable Kennel Run Card PDF + Schedule XLSX Pack.
 - [DentalPlanPack](https://dentalplan.aldersuite.com/): Dental treatment estimates with verified PPO fees, remaining benefits and phased visits.
 - [BoatHaulPack](https://boathaul.cairndock.com/): Boat haul-out and seasonal storage work orders with measured LOA rates, relaunch scheduling and deposit tracking.
-- [SteriLog](https://sterilog.aldersuite.com/): Review dental autoclave loads, spore test results and missing lab reports. [Autoclave spore test log sheet guide](https://sterilog.aldersuite.com/guides/autoclave-spore-test-log-sheet-guide)
+- [SteriLog](https://sterilog.aldersuite.com/): Review dental autoclave loads, spore test results and missing lab reports.
+- [Autoclave spore test log sheet guide](https://sterilog.aldersuite.com/guides/autoclave-spore-test-log-sheet-guide): Explains how to log autoclave spore tests and track lab reports.
 
 ## Free tools — Microtools
 

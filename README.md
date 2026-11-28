@@ -2,7 +2,7 @@
 
 [Open the directory](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/) · [Plain-text index](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/llms.txt)
 
-Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 36 commercial B2B hubs, and 31 free tools. The worked benchmarks use illustrative USD rates, and the showcase calculators process inputs in the browser.
+Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 37 commercial B2B hubs, and 31 free tools. The worked benchmarks use illustrative USD rates, and the showcase calculators process inputs in the browser.
 
 ## Print preflight reference
 
@@ -83,6 +83,7 @@ Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demo
 - [EquipRentPack](https://equiprent.anvildeck.com/) — Equipment, Tool & AV Rental Check-Out/Return Condition, Meter Overage & Deposit Settlement PDF + XLSX Pack.
 - [DriverSettlePack](https://driversettle.cairndock.com/) — Weekly trucking settlements with owner-operator pay, fuel-card deductions, escrow and IFTA mileage.
 - [StorageDelinqPack](https://storagedelinq.cairndock.com/) — Self-storage delinquency review with past-due unit balances, notice delivery evidence and supervisor holds.
+- [ForkliftCheck](https://forkliftcheck.cairndock.com/) — Reconcile scheduled forklift shifts with pre-shift inspections, track defects through supervisor sign-off, and export two PDFs and five CSVs. [Forklift pre-shift inspection guide](https://forkliftcheck.cairndock.com/guides/forklift-pre-shift-inspection-checklist-guide)
 
 ### Hospitality / Food / Events
 
