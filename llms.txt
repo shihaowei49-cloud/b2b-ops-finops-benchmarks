@@ -4,6 +4,11 @@
 
 The worked benchmarks use illustrative USD rates. The showcase calculators process inputs in the browser.
 
+## Print preflight reference
+
+- [Print Preflight Benchmarks](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/print-preflight.html) — KDP paperback spine widths, 11 × 17 Tabloid duplex calibration, 300-DPI crop and bleed, and FDA 21 CFR 101.9 rounding.
+- [MIT-licensed JSON fixtures](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/print-preflight-fixtures.json) · [Actual-size specimen PDF](https://wedpaper.rowanapps.com/specimen/actual-size-print-sample.pdf)
+
 ## Open-source libraries
 
 - [fda-21cfr101-nutrition-rounding](https://github.com/shihaowei49-cloud/fda-21cfr101-nutrition-rounding): FDA Nutrition Facts amount rounding and percent Daily Value reference
@@ -46,10 +51,11 @@ The worked benchmarks use illustrative USD rates. The showcase calculators proce
 
 ## Paired commercial workflows
 
-- [NutritionLabelPack for fda-21cfr101-nutrition-rounding](https://nutrition.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [LineSheetPack for shopify-linesheet-csv-linter](https://linesheet.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [FDA Nutrition Facts rounding calculator](https://nutrition.rowanapps.com/tools/fda-nutrition-facts-rounding-calculator?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [Shopify CSV to wholesale line sheet](https://linesheet.rowanapps.com/shopify-csv-to-line-sheet?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [WH347Pack for wh347-davis-bacon-fringe-calc](https://wh347.anvildeck.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [SpineRetrofit for kdp-book-spine-width-calc](https://spineretrofit.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [Paperback spine repair](https://spineretrofit.rowanapps.com/paperback-spine-repair?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [Wedding newspaper actual-size print proof](https://wedpaper.rowanapps.com/wedding-newspaper-actual-size-print-proof?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [SubPackQC for srt-vtt-broadcast-qc-linter](https://subpackqc.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [CAMReconPack for commercial-cam-pro-rata-calc](https://camrecon.anvildeck.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [CommissionPack for sales-tiered-commission-calc](https://commissionpack.aldersuite.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)

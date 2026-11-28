@@ -1,0 +1,162 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: MIT -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Print Preflight Benchmarks | KDP, Tabloid Duplex &amp; FDA Rounding</title>
+  <meta name="description" content="MIT-licensed print preflight fixtures for KDP paperback spines, 11 × 17 Tabloid duplex folds, 300-DPI crop and bleed, and FDA 21 CFR 101.9 rounding.">
+  <link rel="canonical" href="https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/print-preflight.html">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="license" href="./LICENSE.print-preflight.txt">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="./">Operations Benchmarks</a>
+      <nav aria-label="Project links">
+        <a href="./print-preflight-fixtures.json" download>Download fixtures</a>
+        <a href="https://github.com/shihaowei49-cloud/b2b-ops-finops-benchmarks/blob/main/print-preflight.html">Source on GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="shell">
+    <div class="intro">
+      <div>
+        <h1>Print Preflight <span>Benchmarks</span></h1>
+        <p>Check a KDP cover, a folded Tabloid proof, a 300-DPI image crop, or a U.S. Nutrition Facts declaration against worked examples.</p>
+        <p><a href="./print-preflight-fixtures.json" download><strong>Download the JSON fixtures</strong></a> · <a href="./LICENSE.print-preflight.txt">MIT License</a></p>
+      </div>
+      <nav class="contents" aria-label="On this page">
+        <a href="#kdp-spine">KDP paperback spine widths</a>
+        <a href="#tabloid-duplex">Tabloid duplex fold calibration</a>
+        <a href="#crop-and-bleed">300-DPI crop and bleed</a>
+        <a href="#fda-rounding">FDA nutrition rounding</a>
+      </nav>
+    </div>
+
+    <section id="kdp-spine" aria-labelledby="spine-title">
+      <div class="section-heading">
+        <h2 id="spine-title">KDP paperback spine widths</h2>
+        <p>Use the processed print page count. KDP rounds an odd manuscript count up to the next even number.</p>
+      </div>
+      <ul>
+        <li>Black ink on white paper: <code>spine = print pages × 0.002252 in</code>.</li>
+        <li>Black ink on cream paper: <code>spine = print pages × 0.0025 in</code>.</li>
+        <li>Outer bleed is <strong>0.125 in per edge</strong>. Full-wrap width is <code>2 × trim width + spine + 0.25 in</code>. Full-wrap height is <code>trim height + 0.25 in</code>.</li>
+        <li>Place spine text at least <strong>0.0625 in</strong> from each fold. The available text width is <code>max(0, spine − 0.125 in)</code>. KDP prints spine text on books above 79 print pages.</li>
+      </ul>
+      <div class="preflight-table preflight-table-wide" role="region" aria-label="KDP spine fixture table" tabindex="0">
+        <table>
+          <caption>6 × 9 in paperback fixtures. Dimensions are in inches.</caption>
+          <thead>
+            <tr><th scope="col">Stock</th><th scope="col">Input → print pages</th><th scope="col">Spine width</th><th scope="col">Full wrap</th><th scope="col">Spine text</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">White</th><td>78 → 78</td><td>0.175656</td><td>12.425656 × 9.25</td><td>Omit</td></tr>
+            <tr><th scope="row">White</th><td>79 → 80</td><td>0.180160</td><td>12.430160 × 9.25</td><td>0.055160 wide</td></tr>
+            <tr><th scope="row">White</th><td>200 → 200</td><td>0.450400</td><td>12.700400 × 9.25</td><td>0.325400 wide</td></tr>
+            <tr><th scope="row">White</th><td>268 → 268</td><td>0.603536</td><td>12.853536 × 9.25</td><td>0.478536 wide</td></tr>
+            <tr><th scope="row">Cream</th><td>268 → 268</td><td>0.670000</td><td>12.920000 × 9.25</td><td>0.545000 wide</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>For a left-to-right 6 × 9 in white-stock cover growing from 200 to 268 pages, leave the back panel fixed and move the front panel <strong>0.153136 in to the right</strong>. The spine gains the same width.</p>
+      <p><a href="https://spineretrofit.rowanapps.com/paperback-spine-repair">Preview a paperback spine repair</a></p>
+      <p class="references"><a href="https://kdp.amazon.com/en_US/help/topic/G201953020">KDP paperback cover specifications</a> · <a href="https://kdp.amazon.com/en_US/help/topic/G201857950">KDP manuscript page-count rules</a></p>
+    </section>
+
+    <section id="tabloid-duplex" aria-labelledby="duplex-title">
+      <div class="section-heading">
+        <h2 id="duplex-title">11 × 17 Tabloid duplex fold calibration</h2>
+        <p>Print two imposed PDF spreads on one landscape Tabloid sheet. Choose <strong>100% Actual Size</strong>, one PDF page per side, and <strong>short-edge duplex</strong>.</p>
+      </div>
+      <div class="preflight-table" role="region" aria-label="Tabloid duplex calibration table" tabindex="0">
+        <table>
+          <caption>Panel order with each spread viewed upright</caption>
+          <thead>
+            <tr><th scope="col">PDF page / sheet side</th><th scope="col">Left panel</th><th scope="col">Right panel</th><th scope="col">Fold check</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">1 / Outside</th><td>4 · Back cover</td><td>1 · Front cover</td><td>Page 1 faces out.</td></tr>
+            <tr><th scope="row">2 / Inside</th><td>2 · Inside left</td><td>3 · Inside right</td><td>Both pages are upright.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Measure <strong>8.5 in from either side</strong> across the 17 in edge to the center ticks. Fold to 8.5 × 11 in and read 1 → 2 → 3 → 4. Check that the two faces line up and that type and other critical artwork stay within the specimen’s 0.375 in safe margins.</p>
+      <p>If the inside spread is upside down, check the duplex edge setting and run a second proof. If both sides are upright but the panels are out of order, turn off booklet imposition and restore the PDF page order in the print driver.</p>
+      <p><a href="https://wedpaper.rowanapps.com/specimen/newspaper-sample-en.zip">Download the Tabloid imposition and fold-test card (ZIP)</a></p>
+    </section>
+
+    <section id="crop-and-bleed" aria-labelledby="crop-title">
+      <div class="section-heading">
+        <h2 id="crop-title">300-DPI crop and bleed fixtures</h2>
+        <p>Divide the usable cropped pixels by the printed inches on each axis. The lower result is the effective DPI. Check the 300 target before rounding for display.</p>
+      </div>
+      <div class="preflight-table" role="region" aria-label="300-DPI crop fixture table" tabindex="0">
+        <table>
+          <caption>Image crop at a fixed 6 × 4.5 in placement</caption>
+          <thead>
+            <tr><th scope="col">Cropped pixels</th><th scope="col">Effective DPI</th><th scope="col">300-DPI target</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">1,800 × 1,350</th><td>300</td><td>Meets target</td></tr>
+            <tr><th scope="row">1,200 × 900</th><td>200</td><td>Below target</td></tr>
+            <tr><th scope="row">1,800 × 1,349</th><td>299.777778</td><td>Below target</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="preflight-table" role="region" aria-label="US Letter trim and bleed fixture table" tabindex="0">
+        <table>
+          <caption>US Letter canvas dimensions at 300 DPI</caption>
+          <thead>
+            <tr><th scope="col">PDF box</th><th scope="col">Size in inches</th><th scope="col">Raster dimensions</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">TrimBox</th><td>8.5 × 11</td><td>2,550 × 3,300 px</td></tr>
+            <tr><th scope="row">BleedBox</th><td>8.75 × 11.25</td><td>2,625 × 3,375 px</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>At 300 DPI, 0.125 in is 37.5 px per edge. Add both edges before converting the canvas dimensions, for 75 extra pixels on each axis. The one-page specimen has a 9.25 × 11.75 in MediaBox to fit the crop marks and a 1 in reference line. Print it on larger stock at Actual Size and measure the line between its end ticks.</p>
+      <p><a href="https://wedpaper.rowanapps.com/specimen/actual-size-print-sample.pdf"><strong>Download the actual-size crop and bleed specimen (PDF)</strong></a> · <a href="https://wedpaper.rowanapps.com/wedding-newspaper-actual-size-print-proof">Wedding newspaper print proof guide</a></p>
+    </section>
+
+    <section id="fda-rounding" aria-labelledby="fda-title">
+      <div class="section-heading">
+        <h2 id="fda-title">FDA 21 CFR 101.9 rounding fixtures</h2>
+        <p>Start with unrounded amounts per serving. These examples show NutritionLabelPack’s default declarations for conventional U.S. Nutrition Facts labels.</p>
+      </div>
+      <div class="preflight-table" role="region" aria-label="FDA rounding fixture table" tabindex="0">
+        <table>
+          <caption>Measured amount → declared amount in the same unit</caption>
+          <thead>
+            <tr><th scope="col">Nutrient</th><th scope="col">Rule</th><th scope="col">Fixtures</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Calories (kcal)</th><td>Below 5 may be 0. Use steps of 5 through 50 and steps of 10 above 50.</td><td>4.99 → 0, 5 → 5, 47.5 → 50, 50 → 50, 54.99 → 50, 55 → 60</td></tr>
+            <tr><th scope="row">Total fat (g)</th><td>Below 0.5 declares 0. Use steps of 0.5 below 5 and steps of 1 from 5.</td><td>0.49 → 0, 0.5 → 0.5, 4.74 → 4.5, 4.75 → 5, 5.49 → 5, 5.5 → 6</td></tr>
+            <tr><th scope="row">Saturated and trans fat (g)</th><td>Same increment rules as total fat when declared.</td><td>0.49 → 0, 0.75 → 1, 5.5 → 6</td></tr>
+            <tr><th scope="row">Cholesterol (mg)</th><td>Round to the nearest 5. Below 2 may be 0 for foods meeting the rule’s conditions on fat, fatty-acid, and cholesterol claims. From 2 through 5, a less-than-5 declaration is allowed.</td><td>1.99 → 0, 2 → &lt;5, 5 → &lt;5, 7.5 → 10</td></tr>
+            <tr><th scope="row">Sodium (mg)</th><td>Below 5 declares 0. Use steps of 5 from 5 through 140 and steps of 10 above 140.</td><td>4.99 → 0, 5 → 5, 140 → 140, 144.99 → 140, 145 → 150</td></tr>
+            <tr><th scope="row">Total carbohydrate (g)</th><td>Round to the nearest gram. Below 1, a less-than-1 declaration is allowed. Below 0.5, zero is allowed.</td><td>0.49 → 0, 0.5 → &lt;1, 0.99 → &lt;1, 1 → 1, 1.5 → 2</td></tr>
+            <tr><th scope="row">Dietary fiber, total sugars, added sugars, and protein (g)</th><td>These gram amounts use the same increments and thresholds as total carbohydrate.</td><td>0.49 → 0, 0.5 → &lt;1, 1.5 → 2</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The fixtures round halfway values up and select zero or less-than wording where the applicable rule permits it. The regulation also specifies claim-dependent omission rules and separate requirements for percent Daily Value.</p>
+      <p><a href="https://nutrition.rowanapps.com/tools/fda-nutrition-facts-rounding-calculator">Use the FDA Nutrition Facts rounding calculator</a></p>
+      <p class="references"><a href="https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.9">21 CFR 101.9(c)(1)–(7)</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <p>The reference and JSON fixtures are available under the <a href="./LICENSE.print-preflight.txt">MIT License</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>

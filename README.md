@@ -4,16 +4,22 @@
 
 Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 34 commercial B2B hubs, and 31 free tools. The worked benchmarks use illustrative USD rates, and the showcase calculators process inputs in the browser.
 
+## Print preflight reference
+
+[Print Preflight Benchmarks](https://shihaowei49-cloud.github.io/b2b-ops-finops-benchmarks/print-preflight.html) includes worked KDP paperback spine widths, an 11 × 17 Tabloid duplex fold matrix, 300-DPI crop and bleed cases, and FDA 21 CFR 101.9 rounding examples. [Download the JSON fixtures](./print-preflight-fixtures.json) under the [MIT License](./LICENSE.print-preflight.txt).
+
+- [Wedding newspaper actual-size print proof](https://wedpaper.rowanapps.com/wedding-newspaper-actual-size-print-proof?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9) · [Specimen PDF](https://wedpaper.rowanapps.com/specimen/actual-size-print-sample.pdf)
+
 ## Open-source libraries and demos
 
 - [fda-21cfr101-nutrition-rounding](https://github.com/shihaowei49-cloud/fda-21cfr101-nutrition-rounding) — FDA Nutrition Facts amount rounding and percent Daily Value reference
-  [Interactive demo](https://shihaowei49-cloud.github.io/fda-21cfr101-nutrition-rounding/) · [NutritionLabelPack](https://nutrition.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+  [Interactive demo](https://shihaowei49-cloud.github.io/fda-21cfr101-nutrition-rounding/) · [FDA Nutrition Facts rounding calculator](https://nutrition.rowanapps.com/tools/fda-nutrition-facts-rounding-calculator?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [shopify-linesheet-csv-linter](https://github.com/shihaowei49-cloud/shopify-linesheet-csv-linter) — Preflight Shopify product CSVs for wholesale SKUs, variants, and integer-cent prices
-  [Interactive demo](https://shihaowei49-cloud.github.io/shopify-linesheet-csv-linter/) · [LineSheetPack](https://linesheet.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+  [Interactive demo](https://shihaowei49-cloud.github.io/shopify-linesheet-csv-linter/) · [Shopify CSV to wholesale line sheet](https://linesheet.rowanapps.com/shopify-csv-to-line-sheet?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [wh347-davis-bacon-fringe-calc](https://github.com/shihaowei49-cloud/wh347-davis-bacon-fringe-calc) — Davis-Bacon workweek overtime, fringe credit, and cash-in-lieu payroll arithmetic
   [Interactive demo](https://shihaowei49-cloud.github.io/wh347-davis-bacon-fringe-calc/) · [WH347Pack](https://wh347.anvildeck.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [kdp-book-spine-width-calc](https://github.com/shihaowei49-cloud/kdp-book-spine-width-calc) — Exact spine, cover wrap, bleed and barcode geometry for KDP and IngramSpark.
-  [Interactive demo](https://shihaowei49-cloud.github.io/kdp-book-spine-width-calc/) · [SpineRetrofit](https://spineretrofit.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+  [Interactive demo](https://shihaowei49-cloud.github.io/kdp-book-spine-width-calc/) · [Paperback spine repair](https://spineretrofit.rowanapps.com/paperback-spine-repair?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [srt-vtt-broadcast-qc-linter](https://github.com/shihaowei49-cloud/srt-vtt-broadcast-qc-linter) — Dependency-free SRT and WebVTT timing, readability and shot-gap quality checks.
   [Interactive demo](https://shihaowei49-cloud.github.io/srt-vtt-broadcast-qc-linter/) · [SubPackQC](https://subpackqc.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
 - [commercial-cam-pro-rata-calc](https://github.com/shihaowei49-cloud/commercial-cam-pro-rata-calc) — Exact-cent NNN commercial lease CAM reconciliation for occupancy gross-up, controllable caps and base-year stops.
@@ -190,4 +196,4 @@ Place this directory's contents at the root of the `b2b-ops-finops-benchmarks` r
 - [GS1 General Specifications](https://ref.gs1.org/standards/genspecs/) covers GTIN and barcode checks. [Shopify's product CSV documentation](https://help.shopify.com/en/manual/products/import-export/using-csv) explains the catalog import schema.
 - [21 CFR 101.9](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.9) defines U.S. Nutrition Facts declarations and layout rules.
 
-The maintainers also publish the linked tools. The showcase code and worked examples use the [BSD Zero Clause License](LICENSE).
+The maintainers also publish the linked tools. The showcase calculators and their worked examples use the [BSD Zero Clause License](LICENSE). The print preflight reference and its fixtures use the [MIT License](./LICENSE.print-preflight.txt).

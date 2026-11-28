@@ -66,6 +66,11 @@ output { font-weight: 720; color: var(--green); font-variant-numeric: tabular-nu
 
 table { width: 100%; table-layout: fixed; border-collapse: collapse; margin-top: 1.25rem; font-size: .875rem; }
 .reference-grid table { margin-top: 0; }
+.preflight-table { overflow-x: auto; margin-block: 1.25rem; }
+.preflight-table table { table-layout: auto; margin-top: 0; font-variant-numeric: tabular-nums; }
+.preflight-table-wide table { min-width: 28rem; }
+.preflight-table th, .preflight-table td { width: auto; }
+.preflight-table tbody th { font-weight: 620; }
 caption { text-align: left; font-weight: 700; padding-bottom: .45rem; }
 th, td { padding: .55rem .65rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
 thead { background: var(--tint); }
