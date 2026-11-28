@@ -1,6 +1,6 @@
 # B2B Operations & FinOps Benchmarks
 
-> Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 34 commercial B2B hubs, and 31 free tools.
+> Browse 17 MIT-licensed, zero-dependency JavaScript modules with interactive demos, 5 studio portals, 34 commercial B2B hubs, and 31 free tools.
 
 The worked benchmarks use illustrative USD rates. The showcase calculators process inputs in the browser.
 
@@ -46,75 +46,83 @@ The worked benchmarks use illustrative USD rates. The showcase calculators proce
 
 ## Paired commercial workflows
 
-- [NutritionLabelPack for fda-21cfr101-nutrition-rounding](https://nutritionlabel.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [LineSheetPack for shopify-linesheet-csv-linter](https://linesheet.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [WH347Pack for wh347-davis-bacon-fringe-calc](https://wh347.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [SpineRetrofit for kdp-book-spine-width-calc](https://spineretrofit.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [SubPackQC for srt-vtt-broadcast-qc-linter](https://subpackqc.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [CAMReconPack for commercial-cam-pro-rata-calc](https://camrecon.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [CommissionPack for sales-tiered-commission-calc](https://commissionpack.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [PayAppPack for aia-g702-retainage-calculator](https://payapp.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [TrustReconPack for iolta-three-way-trust-recon](https://trustrecon.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [TipPoolPack for flsa-tip-pool-splitter](https://tippool.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [FreightAuditPack for freight-bol-three-way-matcher](https://freightaudit.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [HOASpecialPack for hoa-special-assessment-splitter](https://hoaspecial.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [ChangeOrderPack for construction-change-order-markup](https://changeorder.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [StorageDelinqPack for self-storage-lien-late-fee-calc](https://storagedelinq.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [ThreeWayMatchPack for ap-invoice-three-way-match-cli](https://threewaymatch.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [HoodCertPack for nfpa96-hood-inspection-scheduler](https://hoodcert.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
-- [DentalPlanPack for dental-insurance-eob-copay-estimator](https://dentalplan.shihaoeth.site/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [NutritionLabelPack for fda-21cfr101-nutrition-rounding](https://nutrition.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [LineSheetPack for shopify-linesheet-csv-linter](https://linesheet.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [WH347Pack for wh347-davis-bacon-fringe-calc](https://wh347.anvildeck.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [SpineRetrofit for kdp-book-spine-width-calc](https://spineretrofit.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [SubPackQC for srt-vtt-broadcast-qc-linter](https://subpackqc.rowanapps.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [CAMReconPack for commercial-cam-pro-rata-calc](https://camrecon.anvildeck.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [CommissionPack for sales-tiered-commission-calc](https://commissionpack.aldersuite.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [PayAppPack for aia-g702-retainage-calculator](https://payapp.anvildeck.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [TrustReconPack for iolta-three-way-trust-recon](https://trustrecon.aldersuite.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [TipPoolPack for flsa-tip-pool-splitter](https://tippool.runbirch.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [FreightAuditPack for freight-bol-three-way-matcher](https://freightaudit.cairndock.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [HOASpecialPack for hoa-special-assessment-splitter](https://hoaspecial.anvildeck.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [ChangeOrderPack for construction-change-order-markup](https://changeorder.anvildeck.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [StorageDelinqPack for self-storage-lien-late-fee-calc](https://storagedelinq.cairndock.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [ThreeWayMatchPack for ap-invoice-three-way-match-cli](https://threewaymatch.aldersuite.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [HoodCertPack for nfpa96-hood-inspection-scheduler](https://hoodcert.runbirch.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+- [DentalPlanPack for dental-insurance-eob-copay-estimator](https://dentalplan.aldersuite.com/?utm_source=github_pages&utm_medium=master_index&utm_campaign=quality_wave_9)
+
+## Studio portals
+
+- [RowanApps](https://rowanapps.com/) — Retail, publishing, and creative production. [Support](mailto:support@rowanapps.com)
+- [AnvilDeck](https://anvildeck.com/) — Construction, property operations, and equipment rental. [Support](mailto:support@anvildeck.com)
+- [AlderSuite](https://aldersuite.com/) — Finance, reconciliation, and practice administration. [Support](mailto:support@aldersuite.com)
+- [CairnDock](https://cairndock.com/) — Freight, fleet, storage, and marine operations. [Support](mailto:support@cairndock.com)
+- [RunBirch](https://runbirch.com/) — Hospitality, food service, and pet boarding. [Support](mailto:support@runbirch.com)
 
 ## Commercial hubs — Construction / Real Estate
 
-- [CloseoutPack](https://closeout.shihaoeth.site/): Turn work-order photos and open items into a closeout report.
-- [RentLedgerPack](https://rentledger.shihaoeth.site/): Partial-Payment & Late-Fee Tenant Rent Ledger PDF & CSV Generator.
-- [PayAppPack](https://payapp.shihaoeth.site/): Construction Subcontractor Progress Payment Application, Schedule of Values & Retainage Draw PDF + XLSX Pack.
-- [CAMReconPack](https://camrecon.shihaoeth.site/): Commercial Lease CAM / NNN Year-End Pro-Rata, Controllable-Cap & Occupancy Proration Statement PDF + XLSX Pack.
-- [WH347Pack](https://wh347.shihaoeth.site/): Prevailing-Wage Certified Payroll & Fringe Benefit Cash-in-Lieu Worksheet PDF + XLSX Pack.
-- [HOASpecialPack](https://hoaspecial.shihaoeth.site/): Condo & HOA Special Assessment Unit Allocation, Installment Schedule & Owner Notice PDF + XLSX Pack.
-- [ChangeOrderPack](https://changeorder.shihaoeth.site/): Construction change order register with revision tracking, markup caps and signed contract totals.
+- [CloseoutPack](https://closeout.anvildeck.com/): Turn work-order photos and open items into a closeout report.
+- [RentLedgerPack](https://rentledger.anvildeck.com/): Partial-Payment & Late-Fee Tenant Rent Ledger PDF & CSV Generator.
+- [PayAppPack](https://payapp.anvildeck.com/): Construction Subcontractor Progress Payment Application, Schedule of Values & Retainage Draw PDF + XLSX Pack.
+- [CAMReconPack](https://camrecon.anvildeck.com/): Commercial Lease CAM / NNN Year-End Pro-Rata, Controllable-Cap & Occupancy Proration Statement PDF + XLSX Pack.
+- [WH347Pack](https://wh347.anvildeck.com/): Prevailing-Wage Certified Payroll & Fringe Benefit Cash-in-Lieu Worksheet PDF + XLSX Pack.
+- [HOASpecialPack](https://hoaspecial.anvildeck.com/): Condo & HOA Special Assessment Unit Allocation, Installment Schedule & Owner Notice PDF + XLSX Pack.
+- [ChangeOrderPack](https://changeorder.anvildeck.com/): Construction change order register with revision tracking, markup caps and signed contract totals.
 
 ## Commercial hubs — Finance / Legal / AP
 
-- [BudgetHub](https://budgethub.shihaoeth.site/): BudgetHub brings AI and developer cost estimates and compatibility checks into one workspace for comparison, saving and CSV export.
-- [AIROIPack](https://airoipack.shihaoeth.site/): Compare automation ROI and payback across three scenarios and chart 12 months of cash flow.
-- [StatementPack](https://statementpack.shihaoeth.site/): Cent-Reconciled Bank Statement PDF to QuickBooks CSV & XLSX Converter.
-- [CommissionPack](https://commissionpack.shihaoeth.site/): Sales Commission Tier, Split & Clawback Rep Statement PDF + Payroll XLSX Pack.
-- [DebtScenarioPack](https://debtscenario.shihaoeth.site/): Fixed-Point Debt Snowball vs Avalanche Amortization XLSX & Side-by-Side PDF Pack.
-- [ThreeWayMatchPack](https://threewaymatch.shihaoeth.site/): Accounts Payable 3-Way Match PO vs Partial Receiving vs Supplier Invoice Exception PDF + XLSX Pack.
-- [TrustReconPack](https://trustrecon.shihaoeth.site/): Three-way trust account reconciliation with reviewer PDF, Excel workbook and audit CSV.
+- [BudgetHub](https://budgethub.aldersuite.com/): BudgetHub brings AI and developer cost estimates and compatibility checks into one workspace for comparison, saving and CSV export.
+- [AIROIPack](https://airoipack.aldersuite.com/): Compare automation ROI and payback across three scenarios and chart 12 months of cash flow.
+- [StatementPack](https://statementpack.aldersuite.com/): Cent-Reconciled Bank Statement PDF to QuickBooks CSV & XLSX Converter.
+- [CommissionPack](https://commissionpack.aldersuite.com/): Sales Commission Tier, Split & Clawback Rep Statement PDF + Payroll XLSX Pack.
+- [DebtScenarioPack](https://debtscenario.aldersuite.com/): Fixed-Point Debt Snowball vs Avalanche Amortization XLSX & Side-by-Side PDF Pack.
+- [ThreeWayMatchPack](https://threewaymatch.aldersuite.com/): Accounts Payable 3-Way Match PO vs Partial Receiving vs Supplier Invoice Exception PDF + XLSX Pack.
+- [TrustReconPack](https://trustrecon.aldersuite.com/): Three-way trust account reconciliation with reviewer PDF, Excel workbook and audit CSV.
 
 ## Commercial hubs — Logistics / Storage / Fleet
 
-- [FreightAuditPack](https://freightaudit.shihaoeth.site/): Carrier Freight Invoice Overcharge, Fuel Surcharge, Accessorial & Duplicate-Bill Dispute PDF + XLSX Pack.
-- [EquipRentPack](https://equiprent.shihaoeth.site/): Equipment, Tool & AV Rental Check-Out/Return Condition, Meter Overage & Deposit Settlement PDF + XLSX Pack.
-- [DriverSettlePack](https://driversettle.shihaoeth.site/): Weekly trucking settlements with owner-operator pay, fuel-card deductions, escrow and IFTA mileage.
-- [StorageDelinqPack](https://storagedelinq.shihaoeth.site/): Self-storage delinquency review with past-due unit balances, notice delivery evidence and supervisor holds.
+- [FreightAuditPack](https://freightaudit.cairndock.com/): Carrier Freight Invoice Overcharge, Fuel Surcharge, Accessorial & Duplicate-Bill Dispute PDF + XLSX Pack.
+- [EquipRentPack](https://equiprent.anvildeck.com/): Equipment, Tool & AV Rental Check-Out/Return Condition, Meter Overage & Deposit Settlement PDF + XLSX Pack.
+- [DriverSettlePack](https://driversettle.cairndock.com/): Weekly trucking settlements with owner-operator pay, fuel-card deductions, escrow and IFTA mileage.
+- [StorageDelinqPack](https://storagedelinq.cairndock.com/): Self-storage delinquency review with past-due unit balances, notice delivery evidence and supervisor holds.
 
 ## Commercial hubs — Hospitality / Food / Events
 
-- [NutritionLabelPack](https://nutritionlabel.shihaoeth.site/): Build U.S. Nutrition Facts panels with UPC-A barcodes and export vector PDF or SVG for print review.
-- [WedPaperPack](https://wedpaper.shihaoeth.site/): Build a four-page wedding newspaper and export an 11 × 17 in duplex PDF with a fold test.
-- [BEOPack](https://beopack.shihaoeth.site/): Banquet Event Order Client + Kitchen + Revision Diff PDF Generator.
-- [CommissaryPack](https://commissary.shihaoeth.site/): Food truck commissary visit, wastewater and operating-day logs for monthly inspection packets.
-- [TipPoolPack](https://tippool.shihaoeth.site/): Restaurant tip pool reconciliation with manager sign-off, staff slips, Excel workbook and payroll CSV.
-- [HoodCertPack](https://hoodcert.shihaoeth.site/): Commercial kitchen hood cleaning records with technician attestation, sticker summaries, photo evidence and follow-up.
+- [NutritionLabelPack](https://nutrition.rowanapps.com/): Build U.S. Nutrition Facts panels with UPC-A barcodes and export vector PDF or SVG for print review.
+- [WedPaperPack](https://wedpaper.rowanapps.com/): Build a four-page wedding newspaper and export an 11 × 17 in duplex PDF with a fold test.
+- [BEOPack](https://beopack.runbirch.com/): Banquet Event Order Client + Kitchen + Revision Diff PDF Generator.
+- [CommissaryPack](https://commissary.runbirch.com/): Food truck commissary visit, wastewater and operating-day logs for monthly inspection packets.
+- [TipPoolPack](https://tippool.runbirch.com/): Restaurant tip pool reconciliation with manager sign-off, staff slips, Excel workbook and payroll CSV.
+- [HoodCertPack](https://hoodcert.runbirch.com/): Commercial kitchen hood cleaning records with technician attestation, sticker summaries, photo evidence and follow-up.
 
 ## Commercial hubs — Publishing / Media / Creative
 
-- [MotionPack](https://motionpack.shihaoeth.site/): Draw an FPV or gimbal path on a photo, transfer reference camera motion, or generate a spoken product ad.
-- [SameFontPack](https://samefont.shihaoeth.site/): Replace raster text in the browser and export PNG or WebP with a SHA-256 digest.
-- [SpineRetrofit](https://spineretrofit.shihaoeth.site/): Recalculate a KDP paperback spine after a page-count change and preview a full-wrap PDF repair.
-- [SubPackQC](https://subpackqc.shihaoeth.site/): Check SRT and WebVTT cue timing and readability, reconcile a delivery manifest, and export a QA handoff.
-- [FFESpecPack](https://ffespec.shihaoeth.site/): Interior Design Room-by-Room FF&E Client Approval PDF + Vendor Procurement XLSX Pack.
+- [MotionPack](https://motionpack.rowanapps.com/): Draw an FPV or gimbal path on a photo, transfer reference camera motion, or generate a spoken product ad.
+- [SameFontPack](https://samefont.rowanapps.com/): Replace raster text in the browser and export PNG or WebP with a SHA-256 digest.
+- [SpineRetrofit](https://spineretrofit.rowanapps.com/): Recalculate a KDP paperback spine after a page-count change and preview a full-wrap PDF repair.
+- [SubPackQC](https://subpackqc.rowanapps.com/): Check SRT and WebVTT cue timing and readability, reconcile a delivery manifest, and export a QA handoff.
+- [FFESpecPack](https://ffespec.anvildeck.com/): Interior Design Room-by-Room FF&E Client Approval PDF + Vendor Procurement XLSX Pack.
 
 ## Commercial hubs — Healthcare / Marine / Retail
 
-- [LineSheetPack](https://linesheet.shihaoeth.site/): Build buyer-specific line sheets and order forms from a catalog CSV.
-- [ConsignPack](https://consignpack.shihaoeth.site/): Consignment Boutique & Antique Booth POS Split, Return Rollover & Per-Consignor Statement PDF + XLSX Pack.
-- [PetBoardPack](https://petboard.shihaoeth.site/): Dog Boarding & Kennel Intake, Vaccine Expiry Check & Printable Kennel Run Card PDF + Schedule XLSX Pack.
-- [DentalPlanPack](https://dentalplan.shihaoeth.site/): Dental treatment estimates with verified PPO fees, remaining benefits and phased visits.
-- [BoatHaulPack](https://boathaul.shihaoeth.site/): Boat haul-out and seasonal storage work orders with measured LOA rates, relaunch scheduling and deposit tracking.
+- [LineSheetPack](https://linesheet.rowanapps.com/): Build buyer-specific line sheets and order forms from a catalog CSV.
+- [ConsignPack](https://consignpack.rowanapps.com/): Consignment Boutique & Antique Booth POS Split, Return Rollover & Per-Consignor Statement PDF + XLSX Pack.
+- [PetBoardPack](https://petboard.runbirch.com/): Dog Boarding & Kennel Intake, Vaccine Expiry Check & Printable Kennel Run Card PDF + Schedule XLSX Pack.
+- [DentalPlanPack](https://dentalplan.aldersuite.com/): Dental treatment estimates with verified PPO fees, remaining benefits and phased visits.
+- [BoatHaulPack](https://boathaul.cairndock.com/): Boat haul-out and seasonal storage work orders with measured LOA rates, relaunch scheduling and deposit tracking.
 
 ## Free tools — Microtools
 

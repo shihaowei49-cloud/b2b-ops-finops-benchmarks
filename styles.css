@@ -41,6 +41,17 @@ section { padding-block: clamp(1.6rem, 4vw, 3rem) clamp(2rem, 4vw, 3.8rem); bord
 h2 { font-size: clamp(2rem, 4.3vw, 3.3rem); letter-spacing: -.036em; line-height: 1.08; margin: 0; }
 .section-heading p { max-width: 66ch; margin: .55rem 0 0; color: var(--muted); }
 h3 { margin: 0; font-size: 1.08rem; line-height: 1.25; }
+.studio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+  gap: .875rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.studio-grid li { padding: 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: .375rem; }
+.studio-grid p { margin: .5rem 0; color: var(--muted); }
+.studio-grid h3 + p + a { font-size: .875rem; }
 .calculators, .reference-grid { display: grid; gap: .875rem; }
 .calculators { grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); }
 .reference-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 2.3fr); align-items: start; }
